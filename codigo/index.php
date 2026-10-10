@@ -27,5 +27,6 @@
             <p><strong>Uso de desonestidade e disfarce:</strong> A estratégia da IA baseia-se em esconder sua natureza computacional e mentir para enganar o interrogador, diferentemente do humano que busca comprovar sua identidade.</p>
         </li>
     </ul>
+    <button><a href="teste.html">Começar o teste</a></button>
 </body>
 </html>

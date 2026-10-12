@@ -1,0 +1,9 @@
+.questao {
+    border: 1px solid red
+}
+.pergunta {
+    border: 1px solid green
+}
+.opcao {
+    border: 1px solid blue
+}

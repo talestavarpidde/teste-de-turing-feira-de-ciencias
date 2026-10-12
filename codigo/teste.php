@@ -10,7 +10,6 @@
     <?php
     require_once 'conexao.php';
 
-    // 1. Busca 10 perguntas aleatórias
     $sql = "SELECT * FROM pergunta ORDER BY RAND() LIMIT 10";
     $perguntas = mysqli_query($conexao, $sql);
 
@@ -28,15 +27,10 @@
                 $idresposta = $resposta['idresposta'];
                 $alternativa = $resposta['resposta'];
                 $tipo = $resposta['tipo_resposta'];
-
-                echo "<label class='opcao'>";
-                    echo "$alternativa";
-                echo "</label><br><br>";
+                    echo "<a href='errou.php'><p>$alternativa</p></a>";
             }
-
             echo "</div>";
         echo "</div>";
-        echo "<hr>";
     }
     ?>
 </body>

@@ -38,7 +38,7 @@
                 $tipo2 = $row['tipo_resposta'];
             
             echo "<div class='resposta-certa'>";
-                echo "<p>$alternativa2</p>";
+                echo "<a href='acertou.php'><p>$alternativa2</p></a>";
             }
             echo "</div>";
         echo "</div>";

@@ -30,6 +30,17 @@
                     echo "<a href='errou.php'><p>$alternativa</p></a>";
             }
             echo "</div>";
+            $sql3 = "SELECT * FROM resposta WHERE idpergunta = $idpergunta AND tipo_resposta = 1";
+            $resposta_ia = mysqli_query($conexao, $sql3);
+            while ($row = mysqli_fetch_array($resposta_ia)) {
+                $idresposta2 = $row['idresposta'];
+                $alternativa2 = $row['resposta'];
+                $tipo2 = $row['tipo_resposta'];
+            
+            echo "<div class='resposta-certa'>";
+                echo "<p>$alternativa2</p>";
+            }
+            echo "</div>";
         echo "</div>";
     }
     ?>

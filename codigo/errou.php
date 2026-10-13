@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Que Pena!</h1>
-    <p>Você errou!</p>
+    <p>Você errou! nosso objetivo é de descobrir quem é a máquina dentre nós.</p>
     vamos tentar de novo? <a href="teste.php">Clique aqui</a> para voltar ao teste.
 </body>
 </html>

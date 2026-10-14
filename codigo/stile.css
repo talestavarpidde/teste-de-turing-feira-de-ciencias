@@ -1,9 +1,11 @@
 .questao {
-    border: 1px solid red
+    border: 1px solid red;
+    width: 100vw;
+    height: 100vh;
 }
 .pergunta {
     border: 1px solid green
 }
-.opcao {
+.opcao {    
     border: 1px solid blue
 }

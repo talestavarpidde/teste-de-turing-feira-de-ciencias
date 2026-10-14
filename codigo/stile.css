@@ -4,8 +4,15 @@
     height: 100vh;
 }
 .pergunta {
-    border: 1px solid green
+    border: 1px solid green;
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center;     /* Centraliza na vertical */
 }
-.opcao {    
-    border: 1px solid blue
+.alternativas {    
+    border: 1px solid blue;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center;
+    text-align: center;
+    margin-top: 2%;
 }

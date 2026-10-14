@@ -21,16 +21,16 @@
                 echo "<p><strong>$enunciado</strong></p>";
             echo "</div>";
             echo "<div class='alternativas'>";
-            $sql2 = "SELECT * FROM resposta WHERE idpergunta = $idpergunta AND tipo_resposta = 2 ORDER BY RAND() LIMIT 3";
+            $sql2 = "SELECT * FROM resposta WHERE idpergunta = $idpergunta AND tipo_resposta = 1 ORDER BY RAND() LIMIT 3";
             $respostas = mysqli_query($conexao, $sql2);
             while ($resposta = mysqli_fetch_array($respostas)) {
                 $idresposta = $resposta['idresposta'];
                 $alternativa = $resposta['resposta'];
                 $tipo = $resposta['tipo_resposta'];
-                    echo "<a href='errou.php'><p>$alternativa</p></a>";
+                    echo "<a href='errou.php'><p>$alternativa</p></a><br>";
             }
             echo "</div>";
-            $sql3 = "SELECT * FROM resposta WHERE idpergunta = $idpergunta AND tipo_resposta = 1";
+            $sql3 = "SELECT * FROM resposta WHERE idpergunta = $idpergunta AND tipo_resposta = 2";
             $resposta_ia = mysqli_query($conexao, $sql3);
             while ($row = mysqli_fetch_array($resposta_ia)) {
                 $idresposta2 = $row['idresposta'];

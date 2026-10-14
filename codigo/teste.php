@@ -160,24 +160,42 @@ if (
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stile.css">
         <title>Resultado do teste</title>
     </head>
-    <body>
-        <h1>Resultado do teste</h1>
-        <p>Você acertou <?php echo $acertos; ?> de <?php echo count($resultados); ?> perguntas.</p>
+    <body class="pagina-resultados">
+        <main class="resultados-container">
+            <header class="resultados-cabecalho">
+                <p class="inicio-etiqueta">Fim do desafio</p>
+                <h1>Resultado do teste</h1>
+                <p class="resumo-resultado">
+                    Você acertou <strong><?php echo $acertos; ?> de <?php echo count($resultados); ?></strong> perguntas.
+                </p>
+            </header>
 
-        <?php foreach ($resultados as $numero => $resultado): ?>
-            <article>
-                <h2>Pergunta <?php echo $numero + 1; ?></h2>
-                <p><strong><?php echo htmlspecialchars($resultado['pergunta'], ENT_QUOTES, 'UTF-8'); ?></strong></p>
-                <p>Sua resposta: <?php echo htmlspecialchars($resultado['resposta_escolhida'], ENT_QUOTES, 'UTF-8'); ?></p>
-                <p>Resposta da IA: <?php echo htmlspecialchars($resultado['resposta_ia'], ENT_QUOTES, 'UTF-8'); ?></p>
-                <p><strong><?php echo $resultado['acertou'] ? 'Você acertou.' : 'Você errou.'; ?></strong></p>
-            </article>
-        <?php endforeach; ?>
+            <section class="lista-resultados" aria-label="Respostas do teste">
+                <?php foreach ($resultados as $numero => $resultado): ?>
+                    <article class="cartao-resultado">
+                        <div class="titulo-resultado">
+                            <h2>Pergunta <?php echo $numero + 1; ?></h2>
+                            <span class="selo-resultado <?php echo $resultado['acertou'] ? 'selo-acerto' : 'selo-erro'; ?>">
+                                <?php echo $resultado['acertou'] ? 'Acertou' : 'Errou'; ?>
+                            </span>
+                        </div>
+                        <p class="enunciado-resultado"><strong><?php echo htmlspecialchars($resultado['pergunta'], ENT_QUOTES, 'UTF-8'); ?></strong></p>
+                        <div class="respostas-resultado">
+                            <p><span>Sua resposta</span><?php echo htmlspecialchars($resultado['resposta_escolhida'], ENT_QUOTES, 'UTF-8'); ?></p>
+                            <p><span>Resposta da IA</span><?php echo htmlspecialchars($resultado['resposta_ia'], ENT_QUOTES, 'UTF-8'); ?></p>
+                        </div>
+                    </article>
+                <?php endforeach; ?>
+            </section>
 
-        <a href="teste.php?novo=1">Começar um novo teste</a> <br>
-        <a href="index.php">Voltar para a página inicial</a>
+            <nav class="acoes-resultados" aria-label="Ações">
+                <a class="botao-principal" href="teste.php?novo=1">Fazer outro teste <span aria-hidden="true">&rarr;</span></a>
+                <a class="link-secundario" href="index.php">Voltar para a página inicial</a>
+            </nav>
+        </main>
     </body>
     </html>
     <?php

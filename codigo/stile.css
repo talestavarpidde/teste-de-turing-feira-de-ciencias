@@ -1,18 +1,337 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 32px 16px;
+    background-color: #fffdfe;
+    color: #32121d;
+    font-family: Arial, sans-serif;
+}
+
 .questao {
-    border: 1px solid red;
-    width: 100vw;
-    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    width: min(100%, 760px);
+    margin: 0 auto;
 }
+
 .pergunta {
-    border: 1px solid green;
     display: flex;
-    justify-content: center; /* Centraliza na horizontal */
-    align-items: center;     /* Centraliza na vertical */
-}
-.alternativas {    
-    border: 1px solid blue;
-    justify-content: center; /* Centraliza na horizontal */
+    grid-column: 1 / -1;
+    min-height: 150px;
     align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 28px;
+    border: 2px solid #e7cbd3;
+    border-radius: 12px;
+    background-color: #fff8fa;
     text-align: center;
-    margin-top: 2%;
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+.pergunta p {
+    margin: 0;
+}
+
+.alternativas,
+.resposta-certa {
+    display: contents;
+}
+
+.alternativas form,
+.resposta-certa form {
+    margin: 0;
+}
+
+.alternativas button,
+.resposta-certa button {
+    width: 100%;
+    min-height: 72px;
+    padding: 18px 22px;
+    border: 2px solid #e7cbd3;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #32121d;
+    cursor: pointer;
+    font: inherit;
+    line-height: 1.5;
+    text-align: left;
+    transition: background-color 150ms ease, border-color 150ms ease, transform 150ms ease;
+}
+
+.alternativas button:hover,
+.resposta-certa button:hover {
+    transform: translateY(-2px);
+    border-color: #641b32;
+    background-color: #f7e9ee;
+}
+
+.alternativas button:focus-visible,
+.resposta-certa button:focus-visible {
+    outline: 3px solid #f2bd56;
+    outline-offset: 3px;
+}
+
+@media (max-width: 480px) {
+    .questao {
+        grid-template-columns: 1fr;
+    }
+
+    .pergunta {
+        grid-column: 1;
+    }
+
+    body {
+        padding: 20px 12px;
+    }
+
+    .pergunta {
+        min-height: 120px;
+        padding: 20px;
+        font-size: 1.1rem;
+    }
+}
+
+.pagina-inicial,
+.resultados-container {
+    width: min(100%, 960px);
+    margin: 0 auto;
+}
+
+.inicio-cabecalho,
+.resultados-cabecalho {
+    padding: clamp(28px, 6vw, 56px);
+    border-radius: 20px;
+    background: linear-gradient(135deg, #641b32, #8c3150);
+    color: #fff8fa;
+}
+
+.inicio-etiqueta {
+    margin: 0 0 12px;
+    color: #f2bdc9;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.inicio-cabecalho h1,
+.resultados-cabecalho h1 {
+    margin: 0;
+    font-size: clamp(2.2rem, 6vw, 3.6rem);
+    line-height: 1.1;
+}
+
+.inicio-introducao {
+    max-width: 600px;
+    margin: 18px 0 28px;
+    color: #f8e9ed;
+    font-size: clamp(1.05rem, 2.5vw, 1.25rem);
+    line-height: 1.6;
+}
+
+.botao-principal {
+    display: inline-flex;
+    min-height: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 12px 20px;
+    border: 0;
+    border-radius: 9px;
+    background-color: #fff8fa;
+    color: #641b32;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background-color 150ms ease, transform 150ms ease;
+}
+
+.botao-principal:hover {
+    transform: translateY(-2px);
+    background-color: #f7e9ee;
+}
+
+.botao-principal:focus-visible,
+.link-secundario:focus-visible {
+    outline: 3px solid #f2bd56;
+    outline-offset: 4px;
+}
+
+.conteudo-inicial {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    margin-top: 22px;
+}
+
+.cartao-informativo,
+.cartao-resultado {
+    padding: 26px;
+    border: 1px solid #ead6dc;
+    border-radius: 14px;
+    background-color: #fff;
+    box-shadow: 0 8px 24px rgb(50 18 29 / 5%);
+}
+
+.cartao-informativo h2 {
+    margin: 10px 0;
+    color: #641b32;
+    font-size: 1.3rem;
+}
+
+.cartao-informativo p,
+.lista-pistas {
+    margin: 0;
+    color: #604b52;
+    line-height: 1.7;
+}
+
+.numero-cartao {
+    color: #a6546c;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.cartao-padroes {
+    grid-column: 1 / -1;
+}
+
+.lista-pistas {
+    display: grid;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.resultados-cabecalho {
+    text-align: center;
+}
+
+.resumo-resultado {
+    margin: 16px 0 0;
+    color: #f8e9ed;
+    font-size: 1.2rem;
+}
+
+.resumo-resultado strong {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.lista-resultados {
+    display: grid;
+    gap: 16px;
+    margin-top: 22px;
+}
+
+.titulo-resultado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.titulo-resultado h2 {
+    margin: 0;
+    color: #641b32;
+    font-size: 1.2rem;
+}
+
+.selo-resultado {
+    padding: 6px 11px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.selo-acerto {
+    background-color: #e5f4eb;
+    color: #21633b;
+}
+
+.selo-erro {
+    background-color: #f9e8eb;
+    color: #922b42;
+}
+
+.enunciado-resultado {
+    margin: 18px 0;
+    line-height: 1.6;
+}
+
+.respostas-resultado {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.respostas-resultado p {
+    margin: 0;
+    padding: 14px;
+    border-radius: 9px;
+    background-color: #fff8fa;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+}
+
+.respostas-resultado span {
+    display: block;
+    margin-bottom: 6px;
+    color: #8c3150;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.acoes-resultados {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    margin: 28px 0;
+}
+
+.acoes-resultados .botao-principal {
+    background-color: #641b32;
+    color: #fff8fa;
+}
+
+.acoes-resultados .botao-principal:hover {
+    background-color: #8c3150;
+}
+
+.link-secundario {
+    color: #641b32;
+    font-weight: 700;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+}
+
+@media (max-width: 600px) {
+    .conteudo-inicial,
+    .respostas-resultado {
+        grid-template-columns: 1fr;
+    }
+
+    .cartao-padroes {
+        grid-column: auto;
+    }
+
+    .cartao-informativo,
+    .cartao-resultado {
+        padding: 20px;
+    }
+
+    .acoes-resultados {
+        align-items: stretch;
+        flex-direction: column;
+        text-align: center;
+    }
 }

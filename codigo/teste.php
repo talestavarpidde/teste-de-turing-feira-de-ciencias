@@ -176,7 +176,7 @@ if (
             </article>
         <?php endforeach; ?>
 
-        <a href="teste.php?novo=1">Começar um novo teste</a>
+        <a href="teste.php?novo=1">Começar um novo teste</a> <br>
         <a href="index.php">Voltar para a página inicial</a>
     </body>
     </html>

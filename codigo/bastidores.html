@@ -1,15 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Essas são nossas informações do projeto</title>
+    <title>Bastidores do projeto | Teste de Turing</title>
 </head>
-<body>
-    <h1>Essas são nossas informações do projeto</h1>
-    <p>Nosso projeto é um teste de Turing, que tem como objetivo avaliar a capacidade de uma máquina em exibir comportamento inteligente equivalente ao de um ser humano. O teste consiste em uma série de perguntas e respostas, onde o participante deve interagir com um sistema de inteligência artificial e tentar determinar se está conversando com um humano ou uma máquina.</p>
-    <p>O teste de Turing é uma ferramenta importante na área de inteligência artificial, pois permite avaliar o desempenho de sistemas de IA em tarefas que exigem compreensão e interação com seres humanos. Ele também levanta questões éticas e filosóficas sobre a natureza da inteligência e da consciência, e sobre o papel das máquinas na sociedade.</p>
-    <p>Nosso projeto busca explorar essas questões e contribuir para o avanço da pesquisa em inteligência artificial, oferecendo uma experiência interativa e educativa para os participantes. Esperamos que nosso teste de Turing seja uma oportunidade para refletir sobre o impacto da tecnologia em nossas vidas e sobre o futuro da inteligência artificial.</p>
+<body class="pagina-bastidores">
+    <main class="bastidores-container">
+        <header class="bastidores-cabecalho">
+            <p class="inicio-etiqueta">Por trás do desafio</p>
+            <h1>Bastidores do projeto</h1>
+            <p>Como criamos as respostas de inteligência artificial usadas no nosso Teste de Turing.</p>
+        </header>
+
+        <section class="cartao-bastidores" aria-label="Sobre o projeto">
+            <h2>Sobre o projeto</h2>
+            <p>Nosso projeto é uma releitura do Teste de Turing. Em vez de conversar ao vivo com uma inteligência artificial, como acontece no teste original, usamos respostas humanas e respostas de IA que foram coletadas previamente. A proposta é comparar essas respostas e convidar o participante a descobrir quais foram escritas pela máquina.</p>
+            <p>O teste de Turing é uma ferramenta importante na área de inteligência artificial, pois permite avaliar o desempenho de sistemas de IA em tarefas que exigem compreensão e interação com seres humanos. Ele também levanta questões éticas e filosóficas sobre a natureza da inteligência e da consciência, e sobre o papel das máquinas na sociedade.</p>
+            <p>Nosso projeto busca explorar essas questões e contribuir para o avanço da pesquisa em inteligência artificial, oferecendo uma experiência interativa e educativa para os participantes. Esperamos que nosso teste de Turing seja uma oportunidade para refletir sobre o impacto da tecnologia em nossas vidas e sobre o futuro da inteligência artificial.</p>
+        </section>
+
+        <section class="cartao-prompt" aria-labelledby="titulo-prompt">
+            <div class="prompt-cabecalho">
+                <div>
+                    <p class="inicio-etiqueta">Criação das respostas</p>
+                    <h2 id="titulo-prompt">Prompt utilizado para a IA</h2>
+                </div>
+                <span class="prompt-identificador">PROMPT</span>
+            </div>
+            <pre class="prompt-conteudo">Atue como um ser humano comum respondendo a uma série de perguntas de forma natural. Vou te enviar uma lista de 60 perguntas em breve. Para cada uma delas, siga rigorosamente estas regras de formeração de texto:
+
+Tom e Estilo: Responda de forma simples, levemente formal mas acessível, como se fosse um cidadão comum pesquisando sobre o assunto, lendo os resultados e escrevendo sua própria conclusão com suas palavras. Não use gírias.
+
+Tamanho: Cada resposta deve ter obrigatoriamente entre 60 e 240 caracteres (incluindo espaços).
+
+Ortografia: Inclua pequenos e naturais erros ortográficos (como esquecer de algumas vírgulas ou acentos pontuais), simulando uma digitação humana comum.
+
+Formato de Saída: Numere as respostas de 1 a 60, correspondendo exatamente à ordem das perguntas que enviarei, e entregue apenas o texto da resposta de cada uma.
+
+Aguarde eu enviar a lista com as 60 perguntas antes de começar a responder. Compreendido?</pre>
+        </section>
+
+        <section class="cartao-bastidores cartao-explicacao-prompt" aria-labelledby="titulo-explicacao-prompt">
+            <h2 id="titulo-explicacao-prompt">O que é um prompt?</h2>
+            <p>Um prompt é uma instrução ou conjunto de orientações enviado a uma inteligência artificial. Ele explica o que a IA deve fazer e pode definir o assunto, o estilo, o tamanho e o formato da resposta. Neste projeto, o prompt orientou a criação das respostas usadas no teste.</p>
+        </section>
+
+        <nav class="bastidores-acoes" aria-label="Navegação">
+            <a class="botao-principal" href="index.php">Voltar ao início <span aria-hidden="true">&larr;</span></a>
+        </nav>
+    </main>
 </body>
 </html>

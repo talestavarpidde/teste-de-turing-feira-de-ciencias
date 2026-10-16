@@ -9,10 +9,15 @@
 <body>
     <main class="pagina-inicial">
         <header class="inicio-cabecalho">
-            <p class="inicio-etiqueta">Inteligência artificial e comportamento</p>
-            <h1>Teste de Turing</h1>
-            <p class="inicio-introducao">Você consegue descobrir quais respostas foram escritas por uma inteligência artificial?</p>
-            <a class="botao-principal" href="teste.php?novo=1">Começar o teste <span aria-hidden="true">&rarr;</span></a>
+            <div class="inicio-cabecalho-conteudo">
+                <div class="inicio-texto">
+                    <p class="inicio-etiqueta">Inteligência artificial e comportamento</p>
+                    <h1>Teste de Turing</h1>
+                    <p class="inicio-introducao">Nesse jogo, você precisa descobrir quais respostas foram escritas por uma inteligência artificial. E escolher identificando a e escolhendo para vencer.</p>
+                    <a class="botao-principal" href="teste.php?novo=1">Começar o teste <span aria-hidden="true">&rarr;</span></a>
+                </div>
+                <a class="botao-bastidores" href="bastidores.html">Veja nossos bastidores <span aria-hidden="true">&larr;</span></a>
+            </div>
         </header>
 
         <section class="conteudo-inicial" aria-label="Sobre o teste">

@@ -29,7 +29,7 @@ if (!isset($_SESSION['perguntas_teste'])) {
     $sql_perguntas = "SELECT idpergunta
                       FROM pergunta
                       ORDER BY RAND()
-                      LIMIT 4";
+                      LIMIT 1";
     $resultado_perguntas = mysqli_query($conexao, $sql_perguntas);
 
     if ($resultado_perguntas === false) {
@@ -42,7 +42,7 @@ if (!isset($_SESSION['perguntas_teste'])) {
         $_SESSION['perguntas_teste'][] = (int) $linha['idpergunta'];
     }
 
-    if (count($_SESSION['perguntas_teste']) < 4) {
+    if (count($_SESSION['perguntas_teste']) < 1) {
         die('Não há pelo menos 4 perguntas cadastradas para iniciar o teste.');
     }
 
@@ -160,7 +160,7 @@ if (
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="stile.css">
+        <link rel="stylesheet" href="style.css">
         <title>Resultado do teste</title>
     </head>
     <body class="pagina-resultados">
@@ -253,7 +253,7 @@ if ($resposta_ia === false) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stile.css">
+    <link rel="stylesheet" href="style.css">
     <title>Pergunta</title>
 </head>
 <body>

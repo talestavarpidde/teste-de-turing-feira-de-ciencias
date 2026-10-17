@@ -265,99 +265,84 @@ INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`
 
 -- pergunta 10 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(10, '', 1);
-(10, '', 1);
-(10, '', 1);
-(10, '', 1);
-(10, '', 1);
-(10, '', 1);
-(10, '', 1);
-(10, '', 1);
-(10, '', 1);
-(10, '', 1);
-(10, '', 1);
-(10, '', 1);
-(10, '', 1);
-(10, '', 1);
-(10, '', 1);
-(10, '', 1);
-(10, '', 1);
-(10, '', 1);
-(10, '', 1);
-(10, '', 1);
-(10, '', 1);
+(10, 'Porque todo o corpo possui um sistema de proteção ', 1);
+(10, 'Quando nos machucamos, os vasos sanguíneos também são danificados e o sangue começa a fluir. A dor é uma resposta fisiológica para alertar que tem algo de errado para buscarmos recuperação do que foi danificado.', 1);
+(10, 'existem receptores na nossa pele que quando machucamos levam sinais através de neurotransmissores para o cérebro, dessa forma serve de alerta para evitar que soframos danos as estruturas do corpo que possa comprometer e provocar danos maiores ao corpo', 1);
+(10, 'Devido a impulsos nervosos gerados pelos nervos.', 1);
+(10, 'Por causa dos nossos neurônios, eles vão levar o "sinal" do machucado até o cérebro', 1);
+(10, 'Em nosso corpo temos receitas de dor em todo corpo, quando nos se machucados eles ativam e mando para uma área no cérebro ', 1);
+(10, 'porque a dor ela é causada pelo neurônio, nós não sentimos dor o cérebro envia alertas para o corpo', 1);
+(10, 'Reação do sistema nervoso indicando o dano ao organismo. ', 1);
+(10, 'A dor serve como forma de defesa do corpo', 1);
+(10, 'É o mecanismo de defesa do corpo avisando sente fratura ou doenças.', 1);
+(10, 'A dor é o alerta / mecanismo de proteção do corpo quando algo ameaça a integridade dos tecidos ou órgãos. Os nocireceptores geram um sinal elétrico que viaja através dos nervos periféricos até a medula espinhal e o cérebro. ', 1);
+(10, 'os nervos avisam o cérebro ', 1);
+(10, 'Sentimos dor porque os nervos detectam o machucado e enviam sinais ao cérebro.', 1);
+(10, 'Por causa do sistema nervoso', 1);
+(10, 'Nervos mandam sinal de alerta pro cérebro', 1);
+
 
 -- pergunta 11 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(11, '', 1);
-(11, '', 1);
-(11, '', 1);
-(11, '', 1);
-(11, '', 1);
-(11, '', 1);
-(11, '', 1);
-(11, '', 1);
-(11, '', 1);
-(11, '', 1);
-(11, '', 1);
-(11, '', 1);
-(11, '', 1);
-(11, '', 1);
-(11, '', 1);
-(11, '', 1);
-(11, '', 1);
-(11, '', 1);
-(11, '', 1);
-(11, '', 1);
-(11, '', 1);
+(11, 'Através de veias e artérias interligado aos órgãos nobres ', 1);
+(11, 'através do sistema circulatório formado pelas veias e artérias, o sangue é impulsionado pelo coração que é uma espécie de bomba', 1);
+(11, 'Através dos vasos onde circulam o sangue venoso e as artérias onde circulam o sangue arterial.', 1);
+(11, 'Ele circula no nosso corpo através dos vasos sanguíneos', 1);
+(11, 'Atraz do bombeamento do coração ', 1);
+(11, 'Ele circula atráves da pulsão do coração fazendo todo o nosso sangue circular por nossa veias ', 1);
+(11, 'pelas veias', 1);
+(11, 'Através das veias sanguíneas ', 1);
+(11, 'Pelas veias e árterias', 1);
+(11, 'Através de artérias e veias por bombeamento do coração. ', 1);
+(11, 'Através das veias e artérias', 1);
+(11, 'Através das veias e o bombeamento do coração.', 1);
+(11, 'Pelas veias e artérias', 1);
+(11, 'Por meio dos vasos sanguíneos, bombeado pelo coração. ', 1);
+(11, 'através das veias e das artérias', 1);
+(11, 'O sangue circula pelo corpo através dos vasos sanguíneos, sendo bombeado pelo coração.', 1);
+(11, 'Derivado pela formação de tubos naturais localizadas no interior de nossa corpo', 1);
+(11, ' Coração bombeia pelas artérias e volta pelas veias', 1);
+
 
 -- pergunta 12 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(12, '', 1);
-(12, '', 1);
-(12, '', 1);
-(12, '', 1);
-(12, '', 1);
-(12, '', 1);
-(12, '', 1);
-(12, '', 1);
-(12, '', 1);
-(12, '', 1);
-(12, '', 1);
-(12, '', 1);
-(12, '', 1);
-(12, '', 1);
-(12, '', 1);
-(12, '', 1);
-(12, '', 1);
-(12, '', 1);
-(12, '', 1);
-(12, '', 1);
-(12, '', 1);
+(12, '"Bio - vida 
+Diversidade - vários 
+Diversidade de seres vivos e sistemas , deve ser preservado pq um depende do outro "', 1);
+(12, 'É o processo de coexistência de inúmeros seres vivos, tanto da fauna como da flora, o que contribui para promoção a manutenção da vida através  da interação mutua desses organismos', 1);
+(12, 'A biodiversidade são todos os organismos do planeta. Animais, plantas, fungos... Deve ser preservada porque se uma espécie desaparece isso pode desencadear enfraquecimento no sistema. Plantas podem reduzir a produção de oxigênio, animais referente ao consumo, controle de populações (espécies carnívoras fazendo o controle de mais espécies, predação.) etc', 1);
+(12, 'É a diversidade biológica animais é plantas, ela mantém biomas vivos, ou ate nosso planeta ', 1);
+(12, 'Conjunto de seres vivos que formam os ecossistemas, mantendo-os em equilíbrio. Daí vem a sua importância. ', 1);
+(12, 'São os vários tipos de vida que habitam a terra e tem que ser preservada porque uma vida depende da outras pra continuar ', 1);
+(12, 'É a cadeia alimentar, pois sem ela há desigualdade.', 1);
+(12, 'E a variedade de toda forma de vida existente na terra, como plantas, animais, e micro-organismos. ', 1);
+(12, 'é a variedade de seres vivos', 1);
+(12, '"Biodiversidade é a variedade de seres vivos. Ela deve ser preservada para manter o equilíbrio dos ecossistemas.
+"', 1);
+(12, 'Porquê Planta faz oxigênio, nois precisar de ar pra viver', 1);
+(12, 'Variedade de vida equilibra natureza e fornece recursos', 1);
 
 -- pergunta 13 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(13, '', 1);
-(13, '', 1);
-(13, '', 1);
-(13, '', 1);
-(13, '', 1);
-(13, '', 1);
-(13, '', 1);
-(13, '', 1);
-(13, '', 1);
-(13, '', 1);
-(13, '', 1);
-(13, '', 1);
-(13, '', 1);
-(13, '', 1);
-(13, '', 1);
-(13, '', 1);
-(13, '', 1);
-(13, '', 1);
-(13, '', 1);
-(13, '', 1);
-(13, '', 1);
+(13, 'A luz não muda o formato o que muda é a posição do sol em relação a ela por isso vemos variações', 1);
+(13, 'Enxergamos diferentes formas da lua ao logo do mês devido a incidência da luz solar que reflete na superfície através interposição da terra ocasionado pelos movimentos de translação e rotação da lua em volta da terra ,', 1);
+(13, 'Devido a rotação da lua ao redor do planeta.', 1);
+(13, 'A lua não muda de formato. A terra está em movimento de translação e rotação a lua orbita o planeta, dependendo do ponto a sombra projetada pode originar em"formato diferente" ', 1);
+(13, 'Devido sua varição de proximidade com a terra', 1);
+(13, 'Por causa da rotação ', 1);
+(13, 'não é a lua, a sombra projetada gera o aspecto de mudança devido a movimentação do planeta ', 1);
+(13, 'Por causa do formato da terra', 1);
+(13, 'devido a rotação da terra e os índices de sol.', 1);
+(13, 'Por ser atingida por uma quantidade diferente de luz solar no ciclo de sua translação. ', 1);
+(13, 'Porque ela tem várias fazes que vão mudando a cada 7 dias', 1);
+(13, 'Devido a rotação da terra em torno do sol.', 1);
+(13, 'A lua não muda de formato, por conta da refração da luz e o movimento da terra vemos a luz e a sombra da lua de formas diferentes', 1);
+(13, 'Por meio do fenômeno conhecido como fases. 
+Devido a quantidade de luz solar refletida em sua superfície.', 1);
+(13, 'porque vemos diferentes partes dela iluminadas pelo Sol', 1);
+(13, 'A Lua parece mudar de formato porque, durante sua órbita, vemos diferentes partes iluminadas pelo Sol.', 1);
+(13, 'Por causa da luz presente nela', 1);
+(13, 'Posição da Lua em relação ao Sol', 1);
 
 -- pergunta 14 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES

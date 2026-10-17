@@ -380,7 +380,7 @@ INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`
 
 -- pergunta 16 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(16, 'Por que possui minerais e sais na água como o sódio', 1);
+(16, 'Por que possui minerais e sais na água como o sódio', 1),
 (16, 'devido a concentração de sódio que oriundo dos sedimentos e minerais que são levados pela chuva ate os rios que desaguam no mar', 1);
 (16, '"porque a chuva ""lava"" as rochas da terra e os rios levam o sal delas para o mar. Aí a água evapora e sobra o sal
 "', 1);
@@ -480,7 +480,7 @@ INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`
 (22, 'As folhas são verdes porque possuem clorofila, um pigmento que participa da fotossíntese.', 1),
 (22, 'Devido a presença de clorofila', 1),
 (22, 'clorofila, pigmento verde da fotossíntese', 1),
-(22, 'O processo biológico da fotossíntese.Devido a clorofila.', 1);
+(22, 'O processo biológico da fotossíntese.Devido a clorofila.', 1),
 (22, 'Devido a clorofila.', 1);
 
 -- pergunta 23 --
@@ -527,7 +527,7 @@ INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`
 (26, 'Pela preservação por meio da mineralização de restos ou vestígios de organismos, que perduram por milhares de anos.', 1),
 (26, 'se formam quando os restos dos dinossauros ficam enterrados', 1),
 (26, 'Pela preservação de matéria orgânica em determinados minerais do solo.', 1),
-(26, 'Fósseis de dinossauros se formam quando restos ou marcas são preservados e, ao longo de milhões de anos, são envolvidos e substituídos por minerais.', 1);
+(26, 'Fósseis de dinossauros se formam quando restos ou marcas são preservados e, ao longo de milhões de anos, são envolvidos e substituídos por minerais.', 1),
 (26, 'O bixo morre em um solo ou material( albar ) propício, e sé preservar', 1);
 (26, 'Osso é coberto por sedimento e mineraliza com o tempo',1);
 (26, 'Permineralização na rocha.', 1);
@@ -543,7 +543,7 @@ INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`
 (27, 'Código genético de um indivíduo. Permite identificá-lo.', 1),
 (27, 'DNA é a molécula que armazena as informações genéticas dos seres vivos.', 1),
 (27, 'Seu código genética , ele guarda as informações como seu vai agir', 1),
-(27, 'Molécula com toda informação genética do corpo.', 1);
+(27, 'Molécula com toda informação genética do corpo.', 1),
 (27, 'E a indentidade de todos os seres vivos e é importante para a indentificação.', 1);
 (27, 'Material genético Acido Desoxirribonucleico, contem toda informação para construir, manter e fazer funcionar um organismo.', 1);
 -- pergunta 28 --
@@ -552,7 +552,7 @@ INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`
 (28, 'ao redirecionar os raios de luz com lentes que ajustam o ponto de foco exatamente sobre a retina', 1),
 (28, 'Usando o princípio de refração que altera a direção da Liz que entra nos nossos olhos', 1),
 (28, 'Através do princípio de refração. Alterando a direção da luz, antes de atingirem a retina.', 1),
-(28, 'ajustando a direção da luz para que a imagem fique nítida', 1);
+(28, 'ajustando a direção da luz para que a imagem fique nítida', 1),
 (28, 'Os óculos corrigem problemas de visão desviando a luz para que ela seja focada corretamente na retina.',1);
 (28, 'Eles agustão o grau de sua visão por meio de lentes, dependendo do problema aumentão ou diminuindo o grau',1);
 (28, 'Pela lente que corrige sua visão',1);
@@ -692,7 +692,7 @@ INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`
 (39, 'Energia renovável sua energia que todos de forma limpa. Sem utilizar recursos que podem se esgotar com o tempo. Um exemplo energia eólica, que é produzida por meio de turbinas que são giradas/movimentadas pelo vento', 1),
 (39, 'São energias geradas de forma continua e disponível. Ex.: energia solar', 1),
 (39, 'Energia gerada a partir de recursos naturais. Energia éolica.', 1),
-(39, 'é aquela que vem de fontes naturais, como a energia solar', 1);
+(39, 'é aquela que vem de fontes naturais, como a energia solar', 1),
 (39, 'É a energia que não acaba, que pode se renovar, como exemplo temos a energia eólica, onde o vento passa grandes hélices que captam o movimento gerando energia', 1),
 (39, 'Não depende de produtos finitos. Biodiesel.', 1),
 (39, 'Energia renovável é aquela obtida de fontes que se renovam naturalmente, como a energia solar.', 1),
@@ -793,12 +793,12 @@ INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`
 
 -- pergunta 47 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-por conta da distância em que a luz das estrelas percorre e os obstáculos como as camadas de ar e gazes de diferentes densidades, notasse a oscilação e leve mudança de direção que a luz percorre ate chegar aos nossos olhos isso chama, cintilação estrelar
-Por causa da turbulência dos desvios da atmosfera terrestre
-porque a luz delas passa pelo ar da atmosfera
-As estrelas parecem piscar porque a luz delas atravessa diferentes camadas da atmosfera terrestre.
-É o raio de luz chegando
-Distâncias, um corpo celeste na sua frente , quando morrem.
+(47, 'por conta da distância em que a luz das estrelas percorre e os obstáculos como as camadas de ar e gazes de diferentes densidades, notasse a oscilação e leve mudança de direção que a luz percorre ate chegar aos nossos olhos isso chama, cintilação estrelar', 1),
+(47, 'Por causa da turbulência dos desvios da atmosfera terrestre', 1),
+(47, 'porque a luz delas passa pelo ar da atmosfera', 1),
+(47, 'As estrelas parecem piscar porque a luz delas atravessa diferentes camadas da atmosfera terrestre.', 1),
+(47, 'É o raio de luz chegando', 1),
+(47, 'Distâncias, um corpo celeste na sua frente , quando morrem.', 1);
 -- pergunta 48 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
 (48, 'Os morcegos possuem um biossonar, e usa a eco localização para desviar de obstáculos, eles emitem frequência ultrassonoras e identificam a distância dos objetos através do comprimento de onda sonora que alcança o objeto e reflete de volta', 1),
@@ -820,7 +820,7 @@ INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`
 (49, 'é formado pelos seres vivos e pelo ambiente onde vivem, como a água, o ar e o solo', 1),
 (49, 'Ecossistema é o conjunto de seres vivos e elementos não vivos que interagem em um ambiente.', 1),
 (49, 'Ele é composto por animais, plantas e geografia própria', 1),
-(49, 'Conjunto de seres vivos + ambiente. Bióticos (vivos) e abióticos (água, solo, luz)', 1);
+(49, 'Conjunto de seres vivos + ambiente. Bióticos (vivos) e abióticos (água, solo, luz)', 1),
 (49, 'Habitats construído de forma natural, onde espécie pode se desenvolver e encontrar recursos para sobrevivência, uma cadeia alimentar já consolidada.', 1);
 -- pergunta 50 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
@@ -829,7 +829,7 @@ INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`
 (50, 'A água evapora quando ela atinge sua temperatura de ebulição, que vai transformar ela do estado líquido para o gasoso, fazendo que quase partículas evaporem', 1),
 (50, 'É quando ela passa do estado líquido ara o gasoso de forma lenta', 1),
 (50, 'quando a água recebe calor e se transforma em vapor', 1),
-(50, 'Aquecimento da água até o ponto de vaporização.', 1);
+(50, 'Aquecimento da água até o ponto de vaporização.', 1),
 (50, 'A evaporação ocorre quando a água recebe energia e algumas de suas moléculas passam do estado líquido para o gasoso.\nÁ água tem que aquecer, assim passa do estado líquido para gasoso\nSol aquece a água e ela vira vapor e sobe\nElevação da temperatura que agitam suas moléculas.', 1);
 (50, 'Á água tem que aquecer, assim passa do estado líquido para gasoso', 1),
 (50, 'Sol aquece a água e ela vira vapor e sobe', 1),
@@ -874,7 +874,7 @@ INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`
 (54, 'Eles não se misturam devido à polaridade e densidade', 1),
 (54, 'Por causa da polaridade das suas moléculas e da regra química de que semelhante dissolve semelhante', 1),
 (54, 'porque têm propriedades diferentes', 1),
-(54, 'Os líquidos tem densidades diferentes', 1);
+(54, 'Os líquidos tem densidades diferentes', 1),
 (54, 'Por possuírem diferentes densidades.', 1),
 (54, 'Água e óleo não se misturam porque possuem propriedades químicas diferentes e não se dissolvem um no outro.', 1),
 (54, 'O material do óleo é idrofófico não interagem com a água', 1),
@@ -888,7 +888,7 @@ meteorito- já estão na terra', 1),
 (55, 'Meteoritos são fragmentos de rocha ou metal vindos do espaço que atravessam a atmosfera sem se desintegrar e meteoro é o fenômeno luminoso', 1),
 (55, 'O tamanho , o meteoro e corpo rochoso e brilhante durante a queda e o meteoritos  o pedaço de rocha que resta que não foi queimado.', 1),
 (55, 'são pedaços de rocha espacial que chegam ao solo, enquanto meteoros são os brilhos que vemos no céu', 1),
-(55, 'Meteoritos são fragmentos que chegam à superfície da Terra. Meteoros são os fenômenos luminosos produzidos quando esses fragmentos atravessam a atmosfera.', 1),
+(55, 'Meteoritos são fragmentos que chegam à superfície da Terra. Meteoros são os fenômenos luminosos produzidos quando esses fragmentos atravessam a atmosfera.', 1);
 
 -- pergunta 56 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES

@@ -346,411 +346,244 @@ Devido a quantidade de luz solar refletida em sua superfície.', 1);
 
 -- pergunta 14 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(14, '', 1);
-(14, '', 1);
-(14, '', 1);
-(14, '', 1);
-(14, '', 1);
-(14, '', 1);
-(14, '', 1);
-(14, '', 1);
-(14, '', 1);
-(14, '', 1);
-(14, '', 1);
-(14, '', 1);
-(14, '', 1);
-(14, '', 1);
-(14, '', 1);
-(14, '', 1);
-(14, '', 1);
-(14, '', 1);
-(14, '', 1);
-(14, '', 1);
-(14, '', 1);
+(14, 'Quando o sol e a lua se encontram', 1);
+(14, 'quando algum corpo celeste como planetas ou outros satélites como a lua ficam entre o sol e a terra impedindo que os raios solares cheguem a terra', 1);
+(14, 'Alinhamento entre o sol, a lua e o planeta terra.', 1);
+(14, 'Quando a lua e o sol se alinham em determinado ponto ', 1);
+(14, 'A lua fica em um ângulo perfeito que tampa o sol em uma parte da terra ', 1);
+(14, 'a lua passa na frente do sol ', 1);
+(14, 'É quando a lua fica entre o sol e a terra.', 1);
+(14, 'Quando a lua fica entre a terra e o sol. ', 1);
+(14, 'É quando a lua tampa o sol', 1);
+(14, 'Devido ao aliamento da lua com a terra e o sol.', 1);
+(14, 'Ocorrem quando o Sol, a Terra e a Lua se alinham, fazendo com que a sombra de um astro seja projetada sobre o outro. ', 1);
+(14, 'quando a Lua fica entre o Sol e a Terra', 1);
+(14, 'Os eclipses solares ocorrem quando a Lua passa entre o Sol e a Terra, bloqueando parte ou toda a luz solar.', 1);
+(14, 'Lua fica entre Sol e Terra e faz sombra', 1);
 
 -- pergunta 15 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(15, '', 1);
-(15, '', 1);
-(15, '', 1);
-(15, '', 1);
-(15, '', 1);
-(15, '', 1);
-(15, '', 1);
-(15, '', 1);
-(15, '', 1);
-(15, '', 1);
-(15, '', 1);
-(15, '', 1);
-(15, '', 1);
-(15, '', 1);
-(15, '', 1);
-(15, '', 1);
-(15, '', 1);
-(15, '', 1);
-(15, '', 1);
-(15, '', 1);
-(15, '', 1);
+(15, 'São medicamentos utilizados para combater bactérias devem ser usados quando uma doença é causada por uma bactéria', 1);
+(15, 'antibióticos são substancia medicamentosas capaz de combater bactérias, através de ações bactericidas ou bacteriostáticas, eles devem ser usados quando ocorre infecções por  bactérias que é quando se instalam no organismo ou multiplicam de forma desordenada provocando sintomas e doenças', 1);
+(15, 'Medicamentos capazes de combater infecções.', 1);
+(15, 'São remédios que vão impedir a multiplicação ou até matar as bactérias, deve ser usado quando receitado por médicos ou em caso de infecções bacterianas. ', 1);
+(15, 'São remédio que nos ajudou a combater vírus bactérias é doenças, devem ser usados quando estarmos doentes e com acompanhamento de um médico ', 1);
+(15, 'Medicamentos para controle de microorganismos no corpo, usados em casos de infecção. ', 1);
+(15, 'São medicamentos usados para matar as bactérias e devem ser usados quando há infecção bacteriana', 1);
+(15, 'São medicamento controlado usado contra doença causada por informações.', 1);
+(15, 'São medicamentos que tratam infecções bacterianas, devem ser usados quando se tem alguma infecção bacteriana ', 1);
+(15, 'É um medicamento utilizado na destruição de bactérias, ou impedido sua multiplicação. ', 1);
+(15, 'usados para combater bactérias e devem ser tomados com orientação médica', 1);
+(15, 'Antibióticos são medicamentos usados para combater infecções causadas por bactérias', 1);
+(15, 'Quando a um desequilíbrio no nosso corpo', 1);
+(15, 'Remédio que mata bactéria', 1);
 
 -- pergunta 16 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(16, '', 1);
-(16, '', 1);
-(16, '', 1);
-(16, '', 1);
-(16, '', 1);
-(16, '', 1);
-(16, '', 1);
-(16, '', 1);
-(16, '', 1);
-(16, '', 1);
-(16, '', 1);
-(16, '', 1);
-(16, '', 1);
-(16, '', 1);
-(16, '', 1);
-(16, '', 1);
-(16, '', 1);
-(16, '', 1);
-(16, '', 1);
-(16, '', 1);
-(16, '', 1);
+(16, 'Por que possui minerais e sais na água como o sódio', 1);
+(16, 'devido a concentração de sódio que oriundo dos sedimentos e minerais que são levados pela chuva ate os rios que desaguam no mar', 1);
+(16, '"porque a chuva ""lava"" as rochas da terra e os rios levam o sal delas para o mar. Aí a água evapora e sobra o sal
+"', 1);
+(16, 'Devido sua alta consertração de sódio ', 1);
+(16, 'por que na água a a presença de sais que quando evapora os gases sobem pra atmosfera e os sais ficam ', 1);
+(16, 'por causa das grandes concentrações de sais no mar', 1);
+(16, 'Alta concentração de minerais na água. ', 1);
+(16, 'Porque a chuva dissolve minerais das rochas ', 1);
+(16, 'Pela presença de sal na água.', 1);
+(16, 'Por conta dos minerais que foram carregados pela água durando os anos, principalmente sódio', 1);
+(16, 'Devido dissolução de minerais, proveniente da erosão das rochas quando desgastadas pelas chuvas, e transportadas pelos rios até o mar. ', 1);
+(16, 'porque recebe sais minerais', 1);
+(16, 'O mar é salgado porque contém sais minerais que são levados para os oceanos pela água dos rios e das rochas.', 1);
+(16, 'Por causa da alta concentração de sal presente em sua profundidade', 1);
+
 
 -- pergunta 17 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(17, '', 1);
-(17, '', 1);
-(17, '', 1);
-(17, '', 1);
-(17, '', 1);
-(17, '', 1);
-(17, '', 1);
-(17, '', 1);
-(17, '', 1);
-(17, '', 1);
-(17, '', 1);
-(17, '', 1);
-(17, '', 1);
-(17, '', 1);
-(17, '', 1);
-(17, '', 1);
-(17, '', 1);
-(17, '', 1);
-(17, '', 1);
-(17, '', 1);
-(17, '', 1);
+(17, 'É a camada de gases da terra e fornece os gases essenciais para sobrevivência dos seres humanos', 1);
+(17, 'é um conjunto de gazes que forma uma barreira para contra os raio solares e matem a presença de oxigênio na superfície da terra', 1);
+(17, 'Um conjunto de gazes envolta do planeta que garabte a proteção soltar, regulação térmica e a vida abase de oxigênio.', 1);
+(17, 'É uma camada de gases que envolve e protege o nosso planeta', 1);
+(17, 'Ele é um moste de gases que mantém a vida da terra  possível ', 1);
+(17, 'Camada protetora de gases ao redor da terra. ', 1);
+(17, 'A camada de gás que envolve o planeta , ela protege a vida regulando a temperatura e filtrando a radiação ', 1);
+(17, 'É a parte gasosa do planeta, no fornece os gases vitais para vida.', 1);
+(17, '"É a camada de gases que envolve o planeta, mantida pela força da gravidade. 
+Atua como escudo protetor e regular a temperatura da terra. "', 1);
+(17, 'é a camada de gases que envolve a Terra', 1);
+(17, 'A atmosfera é a camada de gases que envolve a Terra e ajuda a proteger e manter condições adequadas para a vida.', 1);
+(17, 'Ela tem a tarefa de nós proteger e guardar', 1);
+(17, 'Camada de gases ao redor da Terra. Protege, mantém temperatura e permite respirar', 1);
+
 
 -- pergunta 18 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(18, '', 1);
-(18, '', 1);
-(18, '', 1);
-(18, '', 1);
-(18, '', 1);
-(18, '', 1);
-(18, '', 1);
-(18, '', 1);
-(18, '', 1);
-(18, '', 1);
-(18, '', 1);
-(18, '', 1);
-(18, '', 1);
-(18, '', 1);
-(18, '', 1);
-(18, '', 1);
-(18, '', 1);
-(18, '', 1);
-(18, '', 1);
-(18, '', 1);
-(18, '', 1);
+(18, 'Deixam de funcionar quando usado em casos virais ou quando existe uma resistência bacteriana e é utilizado o antibiótico errado', 1);
+(18, 'devido ao processo de seleção natural onde as bactérias mais fortes sobrevivem ou  começam desenvolver mutações e resistência e são transmitidos geneticamente a medida que se multiplicam', 1);
+(18, 'Eles vão eliminar as bactérias mais fracas e vai restar as mais distantes. Se você para de tomar o medicamento antes do prazo. Essas bactérias vão continuar se multiplicando e dando origem a bactérias mais fortes. Com o tempo o antibiótico vai deixar de funcionar', 1);
+(18, 'Não, mas podem causar muitas complicações', 1);
+(18, 'Quando usamos muito um determinado tipo de antibiótico de forma incorreta as bactérias vai ficando resistente a eles fazendo com elas não morram', 1);
+(18, 'Quando o organismo cria defesa contra esse medicamento.', 1);
+(18, 'Quando ocorre a resistência bacteriana', 1);
+(18, 'pode tornar as bactérias resistentes', 1);
+(18, 'O uso incorreto de antibióticos pode fazer com que algumas bactérias se tornem resistentes a eles.', 1);
+(18, 'Sim,uso contínuo deixa a bactéria mais resistente ', 1);
 
 -- pergunta 19 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(19, '', 1);
-(19, '', 1);
-(19, '', 1);
-(19, '', 1);
-(19, '', 1);
-(19, '', 1);
-(19, '', 1);
-(19, '', 1);
-(19, '', 1);
-(19, '', 1);
-(19, '', 1);
-(19, '', 1);
-(19, '', 1);
-(19, '', 1);
-(19, '', 1);
-(19, '', 1);
-(19, '', 1);
-(19, '', 1);
-(19, '', 1);
-(19, '', 1);
-(19, '', 1);
+(19, 'A fauna e a flora', 1);
+(19, 'a coexistência e interação de forma estável das espécies e manutenção dos ambientes', 1);
+(19, 'Sua biodiversidade estar bem ', 1);
+(19, 'a preservação das nascentes e da biodiversidade ', 1);
+(19, 'A biodiversidade e a preservação dele', 1);
+(19, 'Quando há respeito e limite ao meu ambiente.', 1);
+(19, 'O equilíbrio de garantido pela biodiversidade e pela interação entre o ser humano e o ambiente.   ', 1);
+(19, 'depende da relação entre os seres vivos e o ambiente', 1);
+(19, 'O equilíbrio de um ecossistema é garantido pelas relações entre os seres vivos e o ambiente.', 1);
+(19, 'A preservação de animais importantes para a existência de um espaço concentrado', 1);
+(19, 'predador, presa, planta, decompositor e ambiente', 1);
 
 -- pergunta 20 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(20, '', 1);
-(20, '', 1);
-(20, '', 1);
-(20, '', 1);
-(20, '', 1);
-(20, '', 1);
-(20, '', 1);
-(20, '', 1);
-(20, '', 1);
-(20, '', 1);
-(20, '', 1);
-(20, '', 1);
-(20, '', 1);
-(20, '', 1);
-(20, '', 1);
-(20, '', 1);
-(20, '', 1);
-(20, '', 1);
-(20, '', 1);
-(20, '', 1);
-(20, '', 1);
+(20, 'São celular do sistema nervoso central, que estão presentes no cérebro medula espinhal e se comunicam com as demais estruturas do corpo, eles se comunicam através das sinapse onde ocorre os estímulos elétrico com a transferência de neurotransmissores entre um neurônio e outro', 2),
+(20, 'São unidades bases do sistema nervoso e se comunicam ir impulsos elétricos', 2),
+(20, 'São células cerebrais. Se comunicam por sinapses, que são sinais químicos ou elétricos.', 2),
+(20, 'são células do sistema nervoso', 2),
+(20, 'Células cerebrais que se comunicam por sinapses, impulsos elétricos.', 2),
+(20, 'Neurônios são células do sistema nervoso que transmitem informações por meio de sinais elétricos e químicos.', 2),
+(20, 'São células que compõem nosso cérebro, e se comunicar através de pulsos elétricos', 2),
+(20, 'São células responsáveis por receber os estímulos e processar informações, se comunicam através da sinapse', 2),
+(20, 'Pequenos eletrodo no cérebro, e se comunicam através de ondas elétricas.', 2);
 
 -- pergunta 21 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(21, '', 1);
-(21, '', 1);
-(21, '', 1);
-(21, '', 1);
-(21, '', 1);
-(21, '', 1);
-(21, '', 1);
-(21, '', 1);
-(21, '', 1);
-(21, '', 1);
-(21, '', 1);
-(21, '', 1);
-(21, '', 1);
-(21, '', 1);
-(21, '', 1);
-(21, '', 1);
-(21, '', 1);
-(21, '', 1);
-(21, '', 1);
-(21, '', 1);
-(21, '', 1);
+(21, 'é processo em que a agua passa, do estado gasoso para liquido em forma de chuva e cai na superfície da terra alimenta os lenções freáticos e rios e mares e volta através da evaporação na forma gasosa devido ao calor formando novas nuvens de chuva repetindo o ciclo', 1),
+(21, 'O ciclo da água é o processo em que a água realiza precipitação, evaporação, condensação e a infiltração. Meio que a água é reciclada', 1),
+(21, 'É movimento constante e permanente dela na terra', 1),
+(21, 'Movimento contínuo e permanente da água na natureza. Movido pela energia solar e pela gravidade.', 1),
+(21, 'processo em que a água evapora, forma nuvens e volta à Terra como chuva', 1),
+(21, 'O ciclo da água é o movimento contínuo da água entre a superfície da Terra, a atmosfera e os seres vivos.', 1),
+(21, 'São as fazes da água de volta para o ambiente, ele sai de um rio por exemplo, vira nuvem, e chove depois sempre refazendo o ciclo', 1),
+(21, 'Água evapora, vira nuvem, chove e volta pro rio. Ciclo contínuo', 1),
+(21, 'Evaporação, condenação e chuva.', 1),
+(21, 'O movimento contínuo que a agua faz entre a superficia da Terra e a atmosfera, tem 4 etapas, evaporação, condensação, precipitação e infiltração.', 1);
 
 -- pergunta 22 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(22, '', 1);
-(22, '', 1);
-(22, '', 1);
-(22, '', 1);
-(22, '', 1);
-(22, '', 1);
-(22, '', 1);
-(22, '', 1);
-(22, '', 1);
-(22, '', 1);
-(22, '', 1);
-(22, '', 1);
-(22, '', 1);
-(22, '', 1);
-(22, '', 1);
-(22, '', 1);
-(22, '', 1);
-(22, '', 1);
-(22, '', 1);
-(22, '', 1);
-(22, '', 1);
+(22, 'devido a clorofila que responsável pelo pigmento verde', 1),
+(22, 'por causa da clorofila', 1),
+(22, 'Divida A clorofila presente nela', 1),
+(22, 'Por causa da clorofila', 1),
+(22, 'Devido ao pigmento de clorofila presente nas células das plantas. Essencial para a fotossíntese.', 1),
+(22, 'porque possuem clorofila', 1),
+(22, 'Por conta da clorofila', 1),
+(22, 'Devido à concentração de clorofila.', 1),
+(22, 'As folhas são verdes porque possuem clorofila, um pigmento que participa da fotossíntese.', 1),
+(22, 'Devido a presença de clorofila', 1),
+(22, 'clorofila, pigmento verde da fotossíntese', 1),
+(22, 'O processo biológico da fotossíntese.Devido a clorofila.', 1);
+(22, 'Devido a clorofila.', 1);
 
 -- pergunta 23 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(23, '', 1);
-(23, '', 1);
-(23, '', 1);
-(23, '', 1);
-(23, '', 1);
-(23, '', 1);
-(23, '', 1);
-(23, '', 1);
-(23, '', 1);
-(23, '', 1);
-(23, '', 1);
-(23, '', 1);
-(23, '', 1);
-(23, '', 1);
-(23, '', 1);
-(23, '', 1);
-(23, '', 1);
-(23, '', 1);
-(23, '', 1);
-(23, '', 1);
-(23, '', 1);
+(23, 'fragmentos de rochas espaciais oriundos de outros planetas ou estrelas, e quando entra em contato com os gazes da atmosfera produz atrito e calor que se manifesta em luz', 1),
+(23, 'Sao pequenas rochas que aparecem no céu e por ser bem rápido faz um rastro de luz', 1),
+(23, 'São fragmentos de rocha espacial.', 1),
+(23, 'Brilham devido à incandescência.', 1),
+(23, 'pedaços de rocha espacial que brilham ao entrar na atmosfera da Terra', 1),
+(23, 'Fragmentos de material espacial que entram em combustão ao entrar na atmosfera terrestre.', 1),
+(23, 'Meteoros são fenômenos luminosos causados quando fragmentos de rocha entram na atmosfera e se aquecem.', 1),
+(23, 'São roças vinda do espaço, ele brilham devido a combustão quando tentam entrar no planeta', 1),
+(23, 'São restos de planetas rochosos, devido a sua energia e o contato com a atmosfera terrestre.', 1);
 
 -- pergunta 24 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(24, '', 1);
-(24, '', 1);
-(24, '', 1);
-(24, '', 1);
-(24, '', 1);
-(24, '', 1);
-(24, '', 1);
-(24, '', 1);
-(24, '', 1);
-(24, '', 1);
-(24, '', 1);
-(24, '', 1);
-(24, '', 1);
-(24, '', 1);
-(24, '', 1);
-(24, '', 1);
-(24, '', 1);
-(24, '', 1);
-(24, '', 1);
-(24, '', 1);
-(24, '', 1);
+(24, 'É basicamente a sobrevivência dos indivíduos de uma espécie mais resistente e com características mais propicias ao ambiente em que esta inserido', 1),
+(24, 'processo onde os seres vivos mais adaptados ao ambiente sobrevivem e deixam descendentes, enquanto os menos adaptados desaparecem', 1),
+(24, 'Ela mostra a sobrevivência e evolução das espécies pela adaptação ao ambiente', 1),
+(24, 'É a seleção natural da evolução, consiste na sobrevivência e reprodução dos organismos melhores adaptados ao meio ambiente no qual é exposto.', 1),
+(24, 'é o processo em que os seres vivos mais adaptados ao ambiente têm mais chances de sobreviver e se reproduzir', 1),
+(24, 'O mais forte prospera', 1),
+(24, 'Seleção natural é o processo pelo qual características que favorecem a sobrevivência e reprodução tendem a se tornar mais comuns nas populações.', 1),
+(24, 'O bixo vai se virar e evoluir no ambiente onde o mais forte ou mais adaptado passa seus genes adiante', 1),
+(24, 'Os mais adaptados sobrevivem e passam características pros filhos que é genética', 1),
+(24, 'E a ideia que ser mais rápido consegui sobreviver melhor.', 1);
 
 -- pergunta 25 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(25, '', 1);
-(25, '', 1);
-(25, '', 1);
-(25, '', 1);
-(25, '', 1);
-(25, '', 1);
-(25, '', 1);
-(25, '', 1);
-(25, '', 1);
-(25, '', 1);
-(25, '', 1);
-(25, '', 1);
-(25, '', 1);
-(25, '', 1);
-(25, '', 1);
-(25, '', 1);
-(25, '', 1);
-(25, '', 1);
-(25, '', 1);
-(25, '', 1);
-(25, '', 1);
+(25, 'através do suor ocorre o resfriamento do corpo humano para a manutenção da temperatura', 1),
+(25, 'porque ajudam a resfriar o nosso corpo', 1),
+(25, 'O suor é importante para regular a temperatura do nosso corpo, ir para liberar excesso de água e sais', 1),
+(25, 'Ele ajuda a regular a temperatura corporal', 1),
+(25, 'Porque ele controla a temperatura corporal.', 1),
+(25, 'ajuda a controlar a temperatura do corpo', 1),
+(25, 'O suor regula a temperatura do corpo', 1),
+(25, 'Realiza a refrigeração e a manutenção do calor corporal.', 1),
+(25, 'O suor ajuda a controlar a temperatura do corpo, principalmente por meio da evaporação.', 1);
 
 -- pergunta 26 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(26, '', 1);
-(26, '', 1);
-(26, '', 1);
-(26, '', 1);
-(26, '', 1);
-(26, '', 1);
-(26, '', 1);
-(26, '', 1);
-(26, '', 1);
-(26, '', 1);
-(26, '', 1);
-(26, '', 1);
-(26, '', 1);
-(26, '', 1);
-(26, '', 1);
-(26, '', 1);
-(26, '', 1);
-(26, '', 1);
-(26, '', 1);
-(26, '', 1);
-(26, '', 1);
-
+(26, 'ocorre quando o corpo do animal morto é coberto por terra, lama e outros sentimentos e é conservado contra predadores. bactérias e do exigência , conservado as estruturas do animal', 1),
+(26, 'Através de um processo geológico e biológico', 1),
+(26, 'Pela preservação por meio da mineralização de restos ou vestígios de organismos, que perduram por milhares de anos.', 1),
+(26, 'se formam quando os restos dos dinossauros ficam enterrados', 1),
+(26, 'Pela preservação de matéria orgânica em determinados minerais do solo.', 1),
+(26, 'Fósseis de dinossauros se formam quando restos ou marcas são preservados e, ao longo de milhões de anos, são envolvidos e substituídos por minerais.', 1);
+(26, 'O bixo morre em um solo ou material( albar ) propício, e sé preservar', 1);
+(26, 'Osso é coberto por sedimento e mineraliza com o tempo',1);
+(26, 'Permineralização na rocha.', 1);
 -- pergunta 27 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(27, '', 1);
-(27, '', 1);
-(27, '', 1);
-(27, '', 1);
-(27, '', 1);
-(27, '', 1);
-(27, '', 1);
-(27, '', 1);
-(27, '', 1);
-(27, '', 1);
-(27, '', 1);
-(27, '', 1);
-(27, '', 1);
-(27, '', 1);
-(27, '', 1);
-(27, '', 1);
-(27, '', 1);
-(27, '', 1);
-(27, '', 1);
-(27, '', 1);
-(27, '', 1);
-
+(27, 'É uma molécula formada pelo conjunto de aminoácido que forma uma dupla hélice, que se encontra no interior do núcleos das células é responsável pelo armazenamento de material genético, transmissão dos genes a seus descendentes e síntese de proteínas', 1),
+(27, 'é o material genético q guarda as principais informações do ser humano', 1),
+(27, 'DNA é o material genético presente nos nossos cromossomos, ele está no núcleo da nossas células. ele vai guardar as nossas características', 1),
+(27, 'É uma molécula presente na célula que armazena seus genes que são únicos e te diferencia de qualquer outra pessoa', 1),
+(27, 'É uma molécula presente na célula de todo ser vivo, que armazena e transmite as informações genéticas.', 1),
+(27, 'é uma molécula que contém as informações genéticas dos seres vivos', 1),
+(27, 'O dna é conjunto de genes que formam a identidade do ser', 1),
+(27, 'Código genético de um indivíduo. Permite identificá-lo.', 1),
+(27, 'DNA é a molécula que armazena as informações genéticas dos seres vivos.', 1),
+(27, 'Seu código genética , ele guarda as informações como seu vai agir', 1),
+(27, 'Molécula com toda informação genética do corpo.', 1);
+(27, 'E a indentidade de todos os seres vivos e é importante para a indentificação.', 1);
+(27, 'Material genético Acido Desoxirribonucleico, contem toda informação para construir, manter e fazer funcionar um organismo.', 1);
 -- pergunta 28 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(28, '', 1);
-(28, '', 1);
-(28, '', 1);
-(28, '', 1);
-(28, '', 1);
-(28, '', 1);
-(28, '', 1);
-(28, '', 1);
-(28, '', 1);
-(28, '', 1);
-(28, '', 1);
-(28, '', 1);
-(28, '', 1);
-(28, '', 1);
-(28, '', 1);
-(28, '', 1);
-(28, '', 1);
-(28, '', 1);
-(28, '', 1);
-(28, '', 1);
-(28, '', 1);
+(28, 'através do redirecionamento da luz na retina', 1),
+(28, 'ao redirecionar os raios de luz com lentes que ajustam o ponto de foco exatamente sobre a retina', 1),
+(28, 'Usando o princípio de refração que altera a direção da Liz que entra nos nossos olhos', 1),
+(28, 'Através do princípio de refração. Alterando a direção da luz, antes de atingirem a retina.', 1),
+(28, 'ajustando a direção da luz para que a imagem fique nítida', 1);
+(28, 'Os óculos corrigem problemas de visão desviando a luz para que ela seja focada corretamente na retina.',1);
+(28, 'Eles agustão o grau de sua visão por meio de lentes, dependendo do problema aumentão ou diminuindo o grau',1);
+(28, 'Pela lente que corrige sua visão',1);
+(28, 'Através de suas lentes com graus de luz.',1);
 
 -- pergunta 29 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(29, '', 1);
-(29, '', 1);
-(29, '', 1);
-(29, '', 1);
-(29, '', 1);
-(29, '', 1);
-(29, '', 1);
-(29, '', 1);
-(29, '', 1);
-(29, '', 1);
-(29, '', 1);
-(29, '', 1);
-(29, '', 1);
-(29, '', 1);
-(29, '', 1);
-(29, '', 1);
-(29, '', 1);
-(29, '', 1);
-(29, '', 1);
-(29, '', 1);
-(29, '', 1);
+(29, 'é uma camada formada por gazes que filtra a incidência e entrada de raios solares', 1),
+(29, 'Camada de ozônio é como se fosse uma manta de gases no céu que filtra a passagem dos raios ultravioletas. Ela bloqueia totalmente o raio UVC, segura a maior parte do UVB e deixa passar o UVA, nos protegendo de doenças malignas como o câncer de pele', 1),
+(29, 'Serve como escudo formado pelo gaz ozônio', 1),
+(29, 'É uma camada gasosa localizada na extratosfera. Atua como um filtro natural que absorve grande parte da radiação solar.', 1),
+(29, 'é uma parte da atmosfera que nos protege dos raios ultravioleta do Sol', 1),
+(29, 'A camada de ozônio nos protege dos raios UV que são emitidos do sol', 1),
+(29, 'Camada atmosférica de O3 que filtra os raios ultra violetas.', 1),
+(29, 'A camada de ozônio absorve grande parte da radiação ultravioleta do Sol, protegendo os seres vivos.', 1),
+(29, 'Ele é uma camada de gases e nós protege dos raios solares', 1),
+(29, 'Gás na atmosfera que bloqueia raio UV do Sol', 1),
+(29, 'É a canada da atmosfera que nos proteja contra os raios ultravioleta emitido pelo sol.', 1);
 
 -- pergunta 30 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(30, '', 1);
-(30, '', 1);
-(30, '', 1);
-(30, '', 1);
-(30, '', 1);
-(30, '', 1);
-(30, '', 1);
-(30, '', 1);
-(30, '', 1);
-(30, '', 1);
-(30, '', 1);
-(30, '', 1);
-(30, '', 1);
-(30, '', 1);
-(30, '', 1);
-(30, '', 1);
-(30, '', 1);
-(30, '', 1);
-(30, '', 1);
-(30, '', 1);
-(30, '', 1);
+(30, 'São seres que se alimentam de restos e matéria orgânica de outros seres vivos, eles são responsáveis por transformar a matéria orgânica e devolver nutriente importantes para o ecossistema', 1),
+(30, 'Eles são organismos responsáveis por reciclar a matéria orgânica. O papel deles é meio que fazer a reciclagem', 1),
+(30, 'São fungos e bactérias que usam a matéria orgânica morta em decomposição como alimento', 1),
+(30, 'Transformar materia orgânica em substâncias inorgânicas.', 1),
+(30, 'são fungos e bactérias que decompõem restos de seres vivos e devolvem nutrientes ao ambiente', 1),
+(30, 'Organismos que consomem restos de outras espécies.', 1),
+(30, 'Decompositores são organismos, como fungos e bactérias, que decompõem matéria orgânica e devolvem nutrientes ao ambiente.', 1),
+(30, 'Eles são seres vivos que decompõem a matéria orgânica', 1),
+(30, 'Fungos e bactérias que decompõem matéria morta e devolvem nutrientes', 1),
+(30, 'São os fungos e bactérias, a decomposição de seres vivos.', 1);
 
 -- pergunta 31 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES

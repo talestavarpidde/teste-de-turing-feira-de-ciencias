@@ -587,723 +587,367 @@ INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`
 
 -- pergunta 31 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(31, '', 1);
-(31, '', 1);
-(31, '', 1);
-(31, '', 1);
-(31, '', 1);
-(31, '', 1);
-(31, '', 1);
-(31, '', 1);
-(31, '', 1);
-(31, '', 1);
-(31, '', 1);
-(31, '', 1);
-(31, '', 1);
-(31, '', 1);
-(31, '', 1);
-(31, '', 1);
-(31, '', 1);
-(31, '', 1);
-(31, '', 1);
-(31, '', 1);
-(31, '', 1);
-
+(31, 'através dos impulsos elétricos produzidos pelas celular com auxilio de minerais como sódio, potássio, cálcio e magnésio', 1),
+(31, 'Por causa do automatismo cardíaco', 1),
+(31, 'Por meio de impulsos elétricos rítmicos, gerados pelo próprio órgão. Por meio do nódulo sinoatrial.', 1),
+(31, 'porque possui células que produzem impulsos elétricos', 1),
+(31, 'O coração bate automaticamente graças a células especiais que produzem sinais elétricos que controlam seus batimentos.', 1),
+(31, 'Devido ao nosso cérebro, acho que ele fica mandando sinais automaticamente', 1),
+(31, 'Tem marca-passo natural que gera impulso elétrico sozinho', 1),
+(31, 'Através de ondas celebrais localizadas e mandas por uma parte específica do cérebro.', 1),
+(31, 'Atraves de sinais elétricos que movimentam e contraem o musculo cardíaco.', 1);
 -- pergunta 32 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(32, '', 1);
-(32, '', 1);
-(32, '', 1);
-(32, '', 1);
-(32, '', 1);
-(32, '', 1);
-(32, '', 1);
-(32, '', 1);
-(32, '', 1);
-(32, '', 1);
-(32, '', 1);
-(32, '', 1);
-(32, '', 1);
-(32, '', 1);
-(32, '', 1);
-(32, '', 1);
-(32, '', 1);
-(32, '', 1);
-(32, '', 1);
-(32, '', 1);
-(32, '', 1);
+(32, 'devido a sua densidade que é o arranjo de suas moléculas em sua estrutura, ajustando o seu volume em relação a massa do objeto', 1),
+(32, 'o ar dentro do objeto.', 1),
+(32, 'Sua densidade', 1),
+(32, 'Sua densidade', 1),
+(32, 'Devido sua densidade comparada a densidade do líquido.', 1),
+(32, 'dependendo de sua densidade em comparação com a da água', 1),
+(32, 'A massa do objeto faz com que ele flutue ou afunde', 1),
+(32, 'Sua densidade.', 1),
+(32, 'Um objeto afunda ou flutua de acordo com sua densidade e com a força de empuxo da água.', 1),
+(32, 'Seus dencidade , seu material e seu deslocamento de água', 1),
+(32, 'Densidade. Mais denso que água afunda, menos denso flutua', 1),
+(32, 'Peso e a densidade do objeto além da quantidade de sal na água.', 1),
+(32, 'Sua densidade.', 1);
 
 -- pergunta 33 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(33, '', 1);
-(33, '', 1);
-(33, '', 1);
-(33, '', 1);
-(33, '', 1);
-(33, '', 1);
-(33, '', 1);
-(33, '', 1);
-(33, '', 1);
-(33, '', 1);
-(33, '', 1);
-(33, '', 1);
-(33, '', 1);
-(33, '', 1);
-(33, '', 1);
-(33, '', 1);
-(33, '', 1);
-(33, '', 1);
-(33, '', 1);
-(33, '', 1);
-(33, '', 1);
+(33, 'Defesa do organismo através de células especificas como os leucócitos, e substancias como os anticorpos', 1),
+(33, 'proteger de doenças que adquiriu antigamente.', 1),
+(33, 'Proteger e lutar contra bactérias, vírus, parasita e células cancerígenas', 1),
+(33, 'Proteger o corpo de infeções. Produzir anticorpos.', 1),
+(33, 'protege o corpo contra vírus, bactérias e outros agentes que causam doenças', 1),
+(33, 'Manter o corpo saudável', 1),
+(33, 'Defesa contra microrganismos.', 1),
+(33, 'O sistema imunológico protege o corpo contra microrganismos e outras substâncias que podem causar doenças.', 1),
+(33, 'Combater seres que tentam infectar o corpo, deixar nos vivos', 1),
+(33, 'Defende o corpo contra doenças', 1),
+(33, 'É a de combater doença e infecção em nosso corpo.', 1),
+(33, 'Proteger contra bactérias, vírus, fungos e parasitas nocivas ao corpo humano.', 1);
 
 -- pergunta 34 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(34, '', 1);
-(34, '', 1);
-(34, '', 1);
-(34, '', 1);
-(34, '', 1);
-(34, '', 1);
-(34, '', 1);
-(34, '', 1);
-(34, '', 1);
-(34, '', 1);
-(34, '', 1);
-(34, '', 1);
-(34, '', 1);
-(34, '', 1);
-(34, '', 1);
-(34, '', 1);
-(34, '', 1);
-(34, '', 1);
-(34, '', 1);
-(34, '', 1);
-(34, '', 1);
+(34, 'devido ao vácuo , o som ocorre devido a onda mecânica q provoca vibração de uma molécula para outra e no espaço não existe molecular suficientes', 1),
+(34, 'Porque ele é uma onde mecânica e precisa de um meio físico para se mover', 1),
+(34, 'Porque o som é uma onda mecânica que precisa de um meio material para se locomover.', 1),
+(34, 'porque não tem o ar, para viajar', 1),
+(34, 'Porque o som não se propaga no vácuo', 1),
+(34, 'Porque depende de matéria para circular.', 1),
+(34, 'O som não se propaga no espaço porque precisa de um meio material, como ar, água ou sólidos, para se transmitir.', 1),
+(34, 'O som apenas se propaga em matéria, como o ar ou água', 1),
+(34, 'Devido a falta de moléculas do ar que se movimentam na produção do som e no vácuo do espaço não possuem tais moléculas.', 1);
 
 -- pergunta 35 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(35, '', 1);
-(35, '', 1);
-(35, '', 1);
-(35, '', 1);
-(35, '', 1);
-(35, '', 1);
-(35, '', 1);
-(35, '', 1);
-(35, '', 1);
-(35, '', 1);
-(35, '', 1);
-(35, '', 1);
-(35, '', 1);
-(35, '', 1);
-(35, '', 1);
-(35, '', 1);
-(35, '', 1);
-(35, '', 1);
-(35, '', 1);
-(35, '', 1);
-(35, '', 1);
+(35, 'devido ao aquecimento irregular de áreas da superfícies pelo sol provoca o movimento do ar quente q sobe devido a menor densidade provocando o ar frio a desce que tem menos densidade esse movimento provoca os ventos', 1),
+(35, 'Pelo aquecimento em alguns lugares e pelas diferenças de pressão atmosférica', 1),
+(35, 'Pelo movimento do ar na atmosfera, causada pela diferença de pressão e temperatura na superfície da Terra.', 1),
+(35, 'pelo movimento do ar causado pelas diferenças de temperatura e pressão na Terra', 1),
+(35, 'Os ventos se formam principalmente pelas diferenças de temperatura e pressão do ar na atmosfera.', 1),
+(35, 'Devido às correntes de ar quentes e frias', 1),
+(35, 'Diferença de pressão e temperatura movimenta o ar.', 1),
+(35, 'São formados pela diferença de pressão e o aquecimento desigual dos hemisfério da terra.', 1);
 
 -- pergunta 36 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(36, '', 1);
-(36, '', 1);
-(36, '', 1);
-(36, '', 1);
-(36, '', 1);
-(36, '', 1);
-(36, '', 1);
-(36, '', 1);
-(36, '', 1);
-(36, '', 1);
-(36, '', 1);
-(36, '', 1);
-(36, '', 1);
-(36, '', 1);
-(36, '', 1);
-(36, '', 1);
-(36, '', 1);
-(36, '', 1);
-(36, '', 1);
-(36, '', 1);
-(36, '', 1);
+(36, 'é todo o conjunto de material genético Dna do corpo humano', 1),
+(36, 'É o conjunto completo de material genético do organismo', 1),
+(36, 'É o conjunto completo de todo material genético de um organismo.', 1),
+(36, 'é o conjunto de todas asgenéticas presentes no nosso DNA', 1),
+(36, 'O genoma humano é o conjunto completo de informações genéticas presentes no DNA humano.', 1),
+(36, 'Um gene que é só humano', 1),
+(36, 'E o conjunto de material genético que contém todas as informações de um corpo.', 1);
 
 -- pergunta 37 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(37, '', 1);
-(37, '', 1);
-(37, '', 1);
-(37, '', 1);
-(37, '', 1);
-(37, '', 1);
-(37, '', 1);
-(37, '', 1);
-(37, '', 1);
-(37, '', 1);
-(37, '', 1);
-(37, '', 1);
-(37, '', 1);
-(37, '', 1);
-(37, '', 1);
-(37, '', 1);
-(37, '', 1);
-(37, '', 1);
-(37, '', 1);
-(37, '', 1);
-(37, '', 1);
+(37, 'é todo o conjunto de material genético Dna do corpo humano', 1),
+(37, 'É o conjunto completo de material genético do organismo', 1),
+(37, 'É o conjunto completo de todo material genético de um organismo.', 1),
+(37, 'é o conjunto de todas asgenéticas presentes no nosso DNA', 1),
+(37, 'O genoma humano é o conjunto completo de informações genéticas presentes no DNA humano.', 1),
+(37, 'Um gene que é só humano', 1),
+(37, 'E o conjunto de material genético que contém todas as informações de um corpo.', 1);
 
 -- pergunta 38 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(38, '', 1);
-(38, '', 1);
-(38, '', 1);
-(38, '', 1);
-(38, '', 1);
-(38, '', 1);
-(38, '', 1);
-(38, '', 1);
-(38, '', 1);
-(38, '', 1);
-(38, '', 1);
-(38, '', 1);
-(38, '', 1);
-(38, '', 1);
-(38, '', 1);
-(38, '', 1);
-(38, '', 1);
-(38, '', 1);
-(38, '', 1);
-(38, '', 1);
-(38, '', 1);
+
+(38, 'através do processo de filtragem que ocorre em suas celular, eliminado excesso de substâncias e metabolitos', 1),
+(38, 'Ele filtração as impurezas', 1),
+(38, 'Eles ficam filtrando o sangue, removendo as toxinas', 1),
+(38, 'Por meio dos nefrons, que realizam uma filtração sob pressão.', 1),
+(38, 'Filtram o sangue, retirando impurezas e o excesso de água, que são eliminados pela urina', 1),
+(38, 'Pela filtração do sangue.', 1),
+(38, 'Os rins filtram o sangue, retirando resíduos e excesso de água, que são eliminados na urina.', 1),
+(38, 'Eles são os filtros do nosso corpo, ele separam excesso de material e despejam na urina.', 1),
+(38, 'Porque os rins servem diretamente filtrando alimentos, líquidos e sangue de impurezas os trasportando para a urina.', 1),
+(38, 'Filtrando o sangue.', 1);
 
 -- pergunta 39 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(39, '', 1);
-(39, '', 1);
-(39, '', 1);
-(39, '', 1);
-(39, '', 1);
-(39, '', 1);
-(39, '', 1);
-(39, '', 1);
-(39, '', 1);
-(39, '', 1);
-(39, '', 1);
-(39, '', 1);
-(39, '', 1);
-(39, '', 1);
-(39, '', 1);
-(39, '', 1);
-(39, '', 1);
-(39, '', 1);
-(39, '', 1);
-(39, '', 1);
-(39, '', 1);
+
+(39, 'é a energia obtidas de recursos naturais que não se esgotam, como a energia solar e eólicas', 1),
+(39, 'são energias q estão em abundância na natureza. Energia éolica.', 1),
+(39, 'Energia renovável sua energia que todos de forma limpa. Sem utilizar recursos que podem se esgotar com o tempo. Um exemplo energia eólica, que é produzida por meio de turbinas que são giradas/movimentadas pelo vento', 1),
+(39, 'São energias geradas de forma continua e disponível. Ex.: energia solar', 1),
+(39, 'Energia gerada a partir de recursos naturais. Energia éolica.', 1),
+(39, 'é aquela que vem de fontes naturais, como a energia solar', 1);
+(39, 'É a energia que não acaba, que pode se renovar, como exemplo temos a energia eólica, onde o vento passa grandes hélices que captam o movimento gerando energia', 1),
+(39, 'Não depende de produtos finitos. Biodiesel.', 1),
+(39, 'Energia renovável é aquela obtida de fontes que se renovam naturalmente, como a energia solar.', 1),
+(39, 'Uma energia que pode ser utilizada por um grande tempo e causa pouco danos âmbientais', 1),
+(39, 'Energia que não acaba, vem da natureza. Ex: solar, eólica', 1),
+(39, 'A energia renovável e aquela que mesmo utilizando-a pode se renovar de forma rápida sem alterações de grande proporção no meio ambiente um exemplo seria a energia solar', 1);
 
 -- pergunta 40 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(40, '', 1);
-(40, '', 1);
-(40, '', 1);
-(40, '', 1);
-(40, '', 1);
-(40, '', 1);
-(40, '', 1);
-(40, '', 1);
-(40, '', 1);
-(40, '', 1);
-(40, '', 1);
-(40, '', 1);
-(40, '', 1);
-(40, '', 1);
-(40, '', 1);
-(40, '', 1);
-(40, '', 1);
-(40, '', 1);
-(40, '', 1);
-(40, '', 1);
-(40, '', 1);
+
+(40, 'São células que possuem capacidade de dar origem a varias outras células especializadas do corpo humano, elas possuem auto poder de regeneração', 1),
+(40, 'Células capazes de se multiplicar, estão sendo estudadas pela possibilidade de trazer cura para várias doenças graves', 1),
+(40, 'São células embrionárias não diferenciadas.', 1),
+(40, 'São células que podem se transformar em outros tipos de células e são estudadas para ajudar no tratamento de doenças', 1),
+(40, 'Células com potencial de regeneração de diversos tecidos do corpo.', 1),
+(40, 'Células tronco são células capazes de se transformar em diferentes tipos de células e são estudadas para tratamentos e regeneração de tecidos.', 1),
+(40, 'São selvas que podem se transformar em qualquer outra célula, podem ser revolucionárias na medicina', 1),
+(40, 'Células que viram qualquer outra célula. Estudadas pra curar doenças', 1);
 
 -- pergunta 41 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(41, '', 1);
-(41, '', 1);
-(41, '', 1);
-(41, '', 1);
-(41, '', 1);
-(41, '', 1);
-(41, '', 1);
-(41, '', 1);
-(41, '', 1);
-(41, '', 1);
-(41, '', 1);
-(41, '', 1);
-(41, '', 1);
-(41, '', 1);
-(41, '', 1);
-(41, '', 1);
-(41, '', 1);
-(41, '', 1);
-(41, '', 1);
-(41, '', 1);
-(41, '', 1);
+
+(41, 'através de terremotos que ocorre no encontro nas placas tectônicas no fundo dos oceânicos gerando ondas', 1),
+(41, 'Ocorre quando acontece uma espécie de terremotos no fundo do oceano (não lembro o nome certo para esse evento quando ele acontece no mar) mas ele meio que vai puxar, vai ocorrer uma força que vai fazer que a água recue da costa e quando ela retornar ela não vai retornar igual corre nos filmes, ela retorna como um bloco gigante', 1),
+(41, 'Quando as placas tectonicas se mechem eles movimentam a água causando ondas enormes', 1),
+(41, 'Quando ocorre um deslocamento repentino e massivo de um grande volume de água no oceano.', 1),
+(41, 'ocorrem por terremotos no fundo do mar', 1),
+(41, 'Um tsunamis ocorre quando acontece um terremoto no oceano, que causa um deslocamento de água', 1),
+(41, 'Contato da água do mar com material vulcânico.', 1),
+(41, 'Tsunamis geralmente ocorrem quando um terremoto ou outro fenômeno desloca grande quantidade de água no oceano.', 1),
+(41, 'São massa de água que sé deslocão para o continente devido imperfeições no solo do mar elas cresem, normalmente são causadas por terremotos', 1),
+(41, 'Terremoto ou vulcão no fundo do mar empurra a água e forma onda gigante', 1),
+(41, 'Com o movimento das placas tectônicas.', 1);
 
 -- pergunta 42 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(42, '', 1);
-(42, '', 1);
-(42, '', 1);
-(42, '', 1);
-(42, '', 1);
-(42, '', 1);
-(42, '', 1);
-(42, '', 1);
-(42, '', 1);
-(42, '', 1);
-(42, '', 1);
-(42, '', 1);
-(42, '', 1);
-(42, '', 1);
-(42, '', 1);
-(42, '', 1);
-(42, '', 1);
-(42, '', 1);
-(42, '', 1);
-(42, '', 1);
-(42, '', 1);
+
+(42, 'Dentes de leite existem porque, são estruturas menores e compatíveis com o tamanho da estrutura óssea corporal quando crianças e medita q vamos crescendo as raízes do dente é absorvida dando espaço a dentes maiores e mais resistentes compatíveis com o crescimento e surgimento de estrutura corporais maiores', 1),
+(42, 'Porque os dentes permanente crescem em baixos deles e reabsorvem suas raízes', 1),
+(42, 'Porque os dentes permanentes crescem abaixo deles, pressionando os dentes temporários.', 1),
+(42, 'para dar lugar aos dentes permanentes', 1),
+(42, 'Os dentes de leite caem porque os dentes permanentes começam a nascer e substituí-los.', 1),
+(42, 'São dentes temporária e mais frágeis que os oficiais, sei não', 1),
+(42, 'Dente permanente empurra o de leite. Raiz dissolve e ele cai', 1),
+(42, 'São dentes provisório para a formação e o crescimento da gengiva.', 1);
 
 -- pergunta 43 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(43, '', 1);
-(43, '', 1);
-(43, '', 1);
-(43, '', 1);
-(43, '', 1);
-(43, '', 1);
-(43, '', 1);
-(43, '', 1);
-(43, '', 1);
-(43, '', 1);
-(43, '', 1);
-(43, '', 1);
-(43, '', 1);
-(43, '', 1);
-(43, '', 1);
-(43, '', 1);
-(43, '', 1);
-(43, '', 1);
-(43, '', 1);
-(43, '', 1);
-(43, '', 1);
+
+(43, 'é responsável pelo isolamento térmico e geração de calor responsável por manter a temperatura', 1),
+(43, 'armazenar gordura para o inverno', 1),
+(43, 'Fazer com que fiquem aquecidos', 1),
+(43, 'Proteção térmica. Pois a gordura é isolante térmico.', 1),
+(43, 'protege os animais polares do frio, aquecem', 1),
+(43, 'Proteger o organismo do frio', 1),
+(43, 'Manter a temperatura corporal.', 1),
+(43, 'A camada de gordura ajuda os animais polares a conservar o calor do corpo e se proteger do frio.', 1),
+(43, 'É a reserva de energia e mantém protegido contra o frio', 1),
+(43, 'Isola o frio e guarda energia pra aquecer', 1),
+(43, 'A retenção de calor e de estoque energético para situações de fome', 1),
+(43, 'Manter calor interno.', 1);
 
 -- pergunta 44 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(44, '', 1);
-(44, '', 1);
-(44, '', 1);
-(44, '', 1);
-(44, '', 1);
-(44, '', 1);
-(44, '', 1);
-(44, '', 1);
-(44, '', 1);
-(44, '', 1);
-(44, '', 1);
-(44, '', 1);
-(44, '', 1);
-(44, '', 1);
-(44, '', 1);
-(44, '', 1);
-(44, '', 1);
-(44, '', 1);
-(44, '', 1);
-(44, '', 1);
-(44, '', 1);
+
+(44, 'é a mudança de direção do raio de luz quando ultrapassa o meio transparente', 1),
+(44, 'É o fenômeno onde o raio de luz meda de velocidade de propagação e direção ao passar de um meio óptico para outro', 1),
+(44, 'E a mudança de velocidade e comprimento ao passar de um meio óptico para outro.', 1),
+(44, 'é a mudança de direção da luz', 1),
+(44, 'Refletir a luz ao invés de absorvê-la.', 1),
+(44, 'Refração da luz é a mudança de direção da luz ao passar de um meio para outro.', 1),
+(44, 'É dispersão da luz por um matérial', 1),
+(44, 'Luz muda de direção ao passar do ar pra água', 1),
+(44, 'É a mudança de velocidade da luz ao passar por um obstáculo Ex; água, vidro.', 1);
 
 -- pergunta 45 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(45, '', 1);
-(45, '', 1);
-(45, '', 1);
-(45, '', 1);
-(45, '', 1);
-(45, '', 1);
-(45, '', 1);
-(45, '', 1);
-(45, '', 1);
-(45, '', 1);
-(45, '', 1);
-(45, '', 1);
-(45, '', 1);
-(45, '', 1);
-(45, '', 1);
-(45, '', 1);
-(45, '', 1);
-(45, '', 1);
-(45, '', 1);
-(45, '', 1);
-(45, '', 1);
+
+(45, 'por conta da impossibilidade de replicação do vírus devido conter apenas fragmentos alterado ou estruturas mortas que não são capazes de contaminar outras células', 1),
+(45, 'os vírus estão mortos, e com isso, ajudam a criar antivírus.', 1),
+(45, 'Porque os fragmentos dos vírus foram mudados geneticamente para que servisse de anticorpos par a doença', 1),
+(45, 'Porque as partículas sao de vírus atenuados ou inativados.', 1),
+(45, 'ensinam o corpo a se defender dos vírus', 1),
+(45, 'O sistema imunológico produz anticorpos pra combater o vírus que foi injetado da vacina, assim criando uma imunidade pra cepa do vírus que estava na vacina', 1),
+(45, 'As vacinas treinam o sistema imunológico usando partes ou versões inofensivas do agente causador, sem provocar a doença como ela ocorre naturalmente.', 1),
+(45, 'Eles são o vírus mais fraco ou inativo, ajudam a treinar o nosso corpo', 1),
+(45, 'Pois são doses peque apenas para o treinamento de anticorpos e situações de evolução do corpo', 1);
 
 -- pergunta 46 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(46, '', 1);
-(46, '', 1);
-(46, '', 1);
-(46, '', 1);
-(46, '', 1);
-(46, '', 1);
-(46, '', 1);
-(46, '', 1);
-(46, '', 1);
-(46, '', 1);
-(46, '', 1);
-(46, '', 1);
-(46, '', 1);
-(46, '', 1);
-(46, '', 1);
-(46, '', 1);
-(46, '', 1);
-(46, '', 1);
-(46, '', 1);
-(46, '', 1);
-(46, '', 1);
+(46, 'É a camada de gazes que envolve a terra, e é formada 5 camadas exosfera, termosfera, mesosfera, estratosfera e troposfera', 1),
+(46, 'É a camada de gazes que envolve a terra. Suas camadas são: troposfera, estratosfera, mesosfera, termosfera e exosfera', 1),
+(46, 'é a camada de gases que envolve a Terra. Suas principais camadas são troposfera, estratosfera, mesosfera, termosfera e exosfera', 1),
+(46, 'A atmosfera é a camada de gases que envolve a Terra. Suas principais camadas são troposfera, estratosfera, mesosfera, termosfera e exosfera.', 1),
+(46, 'Sei não', 1),
+(46, 'troposfera, estratosfera, mesosfera, termosfera, exosfera', 1),
+(46, 'E camada gaz que protege nosso planeta, camada de ozônio, oxigênio.', 1);
 
 -- pergunta 47 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(47, '', 1);
-(47, '', 1);
-(47, '', 1);
-(47, '', 1);
-(47, '', 1);
-(47, '', 1);
-(47, '', 1);
-(47, '', 1);
-(47, '', 1);
-(47, '', 1);
-(47, '', 1);
-(47, '', 1);
-(47, '', 1);
-(47, '', 1);
-(47, '', 1);
-(47, '', 1);
-(47, '', 1);
-(47, '', 1);
-(47, '', 1);
-(47, '', 1);
-(47, '', 1);
-
+por conta da distância em que a luz das estrelas percorre e os obstáculos como as camadas de ar e gazes de diferentes densidades, notasse a oscilação e leve mudança de direção que a luz percorre ate chegar aos nossos olhos isso chama, cintilação estrelar
+Por causa da turbulência dos desvios da atmosfera terrestre
+porque a luz delas passa pelo ar da atmosfera
+As estrelas parecem piscar porque a luz delas atravessa diferentes camadas da atmosfera terrestre.
+É o raio de luz chegando
+Distâncias, um corpo celeste na sua frente , quando morrem.
 -- pergunta 48 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(48, '', 1);
-(48, '', 1);
-(48, '', 1);
-(48, '', 1);
-(48, '', 1);
-(48, '', 1);
-(48, '', 1);
-(48, '', 1);
-(48, '', 1);
-(48, '', 1);
-(48, '', 1);
-(48, '', 1);
-(48, '', 1);
-(48, '', 1);
-(48, '', 1);
-(48, '', 1);
-(48, '', 1);
-(48, '', 1);
-(48, '', 1);
-(48, '', 1);
-(48, '', 1);
+(48, 'Os morcegos possuem um biossonar, e usa a eco localização para desviar de obstáculos, eles emitem frequência ultrassonoras e identificam a distância dos objetos através do comprimento de onda sonora que alcança o objeto e reflete de volta', 1),
+(48, 'eles possuem uma super audição.', 1),
+(48, 'Porque utilizam um sistema biológico que se chama ecolocalizicao', 1),
+(48, 'usam a ecolocalização', 1),
+(48, 'Eco localização', 1),
+(48, 'Usando radar sônico.', 1),
+(48, 'Os morcegos usam a ecolocalização, emitindo sons e percebendo seus ecos para identificar obstáculos.', 1),
+(48, 'Devido seu abilidade de ecolocalização', 1),
+(48, 'soltam som e ouvem o eco que é chamada de ecolocalização', 1),
+(48, 'Devido a ecolocalização recurso esse que envia ondas sonoras que rebatem em superfícies voltando para os ouvidos do morcego', 1),
+(48, 'Sao cegos mas possuem audição aguçada como um sonar natural.', 1);
 
 -- pergunta 49 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(49, '', 1);
-(49, '', 1);
-(49, '', 1);
-(49, '', 1);
-(49, '', 1);
-(49, '', 1);
-(49, '', 1);
-(49, '', 1);
-(49, '', 1);
-(49, '', 1);
-(49, '', 1);
-(49, '', 1);
-(49, '', 1);
-(49, '', 1);
-(49, '', 1);
-(49, '', 1);
-(49, '', 1);
-(49, '', 1);
-(49, '', 1);
-(49, '', 1);
-(49, '', 1);
-
+(49, 'É o ambiente formado pelo conjunto de seres vivos e não vivos, que mantem interação, que proporcionam que todos coexistam, é formado por componente bióticos ( plantas, animais, fungos e microrganismos) e abióticos( temperatura, luz, clima e outros fatores físico-químicos)', 1),
+(49, 'São os seres vivos e não vivos que formam um ambiente. Seus componentes são seres vivos e elementos físicos e químicos', 1),
+(49, 'é formado pelos seres vivos e pelo ambiente onde vivem, como a água, o ar e o solo', 1),
+(49, 'Ecossistema é o conjunto de seres vivos e elementos não vivos que interagem em um ambiente.', 1),
+(49, 'Ele é composto por animais, plantas e geografia própria', 1),
+(49, 'Conjunto de seres vivos + ambiente. Bióticos (vivos) e abióticos (água, solo, luz)', 1);
+(49, 'Habitats construído de forma natural, onde espécie pode se desenvolver e encontrar recursos para sobrevivência, uma cadeia alimentar já consolidada.', 1);
 -- pergunta 50 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(50, '', 1);
-(50, '', 1);
-(50, '', 1);
-(50, '', 1);
-(50, '', 1);
-(50, '', 1);
-(50, '', 1);
-(50, '', 1);
-(50, '', 1);
-(50, '', 1);
-(50, '', 1);
-(50, '', 1);
-(50, '', 1);
-(50, '', 1);
-(50, '', 1);
-(50, '', 1);
-(50, '', 1);
-(50, '', 1);
-(50, '', 1);
-(50, '', 1);
-(50, '', 1);
+(50, 'quando a aumento de temperatura as moléculas da agua da superfície acumulam energia e se desprende de ligações com as outra moléculas e escapam pelo ar na forma de gases', 1),
+(50, 'o sol entra em contato com a água, q entra em evaporação', 1),
+(50, 'A água evapora quando ela atinge sua temperatura de ebulição, que vai transformar ela do estado líquido para o gasoso, fazendo que quase partículas evaporem', 1),
+(50, 'É quando ela passa do estado líquido ara o gasoso de forma lenta', 1),
+(50, 'quando a água recebe calor e se transforma em vapor', 1),
+(50, 'Aquecimento da água até o ponto de vaporização.', 1);
+(50, 'A evaporação ocorre quando a água recebe energia e algumas de suas moléculas passam do estado líquido para o gasoso.\nÁ água tem que aquecer, assim passa do estado líquido para gasoso\nSol aquece a água e ela vira vapor e sobe\nElevação da temperatura que agitam suas moléculas.', 1);
+(50, 'Á água tem que aquecer, assim passa do estado líquido para gasoso', 1),
+(50, 'Sol aquece a água e ela vira vapor e sobe', 1),
+(50, 'Elevação da temperatura que agitam suas moléculas.', 1);
 
 -- pergunta 51 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(51, '', 1);
-(51, '', 1);
-(51, '', 1);
-(51, '', 1);
-(51, '', 1);
-(51, '', 1);
-(51, '', 1);
-(51, '', 1);
-(51, '', 1);
-(51, '', 1);
-(51, '', 1);
-(51, '', 1);
-(51, '', 1);
-(51, '', 1);
-(51, '', 1);
-(51, '', 1);
-(51, '', 1);
-(51, '', 1);
-(51, '', 1);
-(51, '', 1);
-(51, '', 1);
+(51, 'carregar oxigênio para os tecidos e células do corpo através do corrente sanguínea', 1),
+(51, 'ele serve para o transporte de oxigênio no sangue', 1),
+(51, 'Transportar oxigênio para os pulmões e outros tecidos do corpo e ajudar no retorno do gás carbônico de volta nos pulmões', 1),
+(51, 'transporta o oxigênio pelo sangue para todo o corpo', 1),
+(51, 'Processar o oxigênio para as células.', 1),
+(51, 'A hemoglobina transporta principalmente oxigênio pelo sangue.', 1),
+(51, 'Transportar o Oxigênio, além de dar o coloração avermelhado', 1),
+(51, 'Carrega oxigênio no sangue.', 1),
+(51, 'Proteínas ricas em ferro que transporta o oxigênio dos pulmões para o corpo.', 1),
+(51, 'O que da sua cor vermelha e transporte de oxigenio.', 1);
 
 -- pergunta 52 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(52, '', 1);
-(52, '', 1);
-(52, '', 1);
-(52, '', 1);
-(52, '', 1);
-(52, '', 1);
-(52, '', 1);
-(52, '', 1);
-(52, '', 1);
-(52, '', 1);
-(52, '', 1);
-(52, '', 1);
-(52, '', 1);
-(52, '', 1);
-(52, '', 1);
-(52, '', 1);
-(52, '', 1);
-(52, '', 1);
-(52, '', 1);
-(52, '', 1);
-(52, '', 1);
+(52, 'é força do ar e gazes da atmosfera exercem a contra a superfície da terra puxado pela gravidade', 1),
+(52, 'É a força por unidade de área exercida pelo peso da camada de ar da atmosfera sobre a superfície', 1),
+(52, 'é a força do ar sobre a Terra e influencia o clima e a respiração', 1),
+(52, 'Pressão atmosférica é a força exercida pelo peso do ar sobre a superfície da Terra.', 1),
+(52, 'É atmosfera fazendo pressão em cima de um corpo, é massa de gás em cima e dos lados té comprimindo', 1),
+(52, 'Peso do ar sobre nós. Afeta respiração e ouvido', 1),
+(52, 'Massa de ar que está precisando alguma corpo, com sua quantidade ou ausência de pressão.', 1);
 
 -- pergunta 53 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(53, '', 1);
-(53, '', 1);
-(53, '', 1);
-(53, '', 1);
-(53, '', 1);
-(53, '', 1);
-(53, '', 1);
-(53, '', 1);
-(53, '', 1);
-(53, '', 1);
-(53, '', 1);
-(53, '', 1);
-(53, '', 1);
-(53, '', 1);
-(53, '', 1);
-(53, '', 1);
-(53, '', 1);
-(53, '', 1);
-(53, '', 1);
-(53, '', 1);
-(53, '', 1);
+(53, 'através de alterações da lente dos olhos definida como cristalino, quando fica mais grosso e curvo foca em objetos próximos e quando ele é puxado fica mais plano e curvado foca em objeto distantes', 1),
+(53, 'Por um processo chamado acomodação visual, que muda o formato do cristalino', 1),
+(53, 'formato do cristalino', 1),
+(53, 'O olho muda o formato do cristalino para ajustar o foco e enxergar objetos próximos ou distantes.', 1),
+(53, 'Não sei', 1),
+(53, 'Com o movimento da Ires do olho abrindo e fechando dependendo da quantidade de luz.', 1);
 
 -- pergunta 54 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(54, '', 1);
-(54, '', 1);
-(54, '', 1);
-(54, '', 1);
-(54, '', 1);
-(54, '', 1);
-(54, '', 1);
-(54, '', 1);
-(54, '', 1);
-(54, '', 1);
-(54, '', 1);
-(54, '', 1);
-(54, '', 1);
-(54, '', 1);
-(54, '', 1);
-(54, '', 1);
-(54, '', 1);
-(54, '', 1);
-(54, '', 1);
-(54, '', 1);
-(54, '', 1);
+(54, 'devido a polaridades diferente, a agua é polar sua moléculas possuem carga levemente negativa de uma ponta e positiva de outra e forma uma forte ligação entre suas moléculas, e o óleo é apolar não tendo diferença de carga elétrica, e tendo tendência a se ligar a moléculas semelhantes', 1),
+(54, 'porque possuem densidades diferentes', 1),
+(54, 'Eles não se misturam devido à polaridade e densidade', 1),
+(54, 'Por causa da polaridade das suas moléculas e da regra química de que semelhante dissolve semelhante', 1),
+(54, 'porque têm propriedades diferentes', 1),
+(54, 'Os líquidos tem densidades diferentes', 1);
+(54, 'Por possuírem diferentes densidades.', 1),
+(54, 'Água e óleo não se misturam porque possuem propriedades químicas diferentes e não se dissolvem um no outro.', 1),
+(54, 'O material do óleo é idrofófico não interagem com a água', 1),
+(54, 'O óleo sendo menos denço que a água torna ele mais leve.', 1);
 
 -- pergunta 55 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(55, '', 1);
-(55, '', 1);
-(55, '', 1);
-(55, '', 1);
-(55, '', 1);
-(55, '', 1);
-(55, '', 1);
-(55, '', 1);
-(55, '', 1);
-(55, '', 1);
-(55, '', 1);
-(55, '', 1);
-(55, '', 1);
-(55, '', 1);
-(55, '', 1);
-(55, '', 1);
-(55, '', 1);
-(55, '', 1);
-(55, '', 1);
-(55, '', 1);
-(55, '', 1);
+(55, 'fragmento de rochas espaciais que cruzam a atmosfera e atingem a crosta terrestre', 1),
+(55, 'meteoros- ainda estão no espaço
+meteorito- já estão na terra', 1),
+(55, 'Meteoritos são fragmentos de rocha ou metal vindos do espaço que atravessam a atmosfera sem se desintegrar e meteoro é o fenômeno luminoso', 1),
+(55, 'O tamanho , o meteoro e corpo rochoso e brilhante durante a queda e o meteoritos  o pedaço de rocha que resta que não foi queimado.', 1),
+(55, 'são pedaços de rocha espacial que chegam ao solo, enquanto meteoros são os brilhos que vemos no céu', 1),
+(55, 'Meteoritos são fragmentos que chegam à superfície da Terra. Meteoros são os fenômenos luminosos produzidos quando esses fragmentos atravessam a atmosfera.', 1),
 
 -- pergunta 56 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(56, '', 1);
-(56, '', 1);
-(56, '', 1);
-(56, '', 1);
-(56, '', 1);
-(56, '', 1);
-(56, '', 1);
-(56, '', 1);
-(56, '', 1);
-(56, '', 1);
-(56, '', 1);
-(56, '', 1);
-(56, '', 1);
-(56, '', 1);
-(56, '', 1);
-(56, '', 1);
-(56, '', 1);
-(56, '', 1);
-(56, '', 1);
-(56, '', 1);
-(56, '', 1);
+(56, 'é o sistema responsável por comandar as ações e funções do nosso organismo através de neurotransmissores, hormônio e impulsos elétricos é formado pelo Encéfalo ( cérebro, cerebelo e tronco encefálico|) e a medula espinha, de onde tem origem os nervos e neurônios periféricos', 1),
+(56, 'É o principal centro de comando do corpo humano. Composto pelo encéfalo e medula espinhal', 1),
+(56, 'controla o corpo e é formado pelo cérebro e pela medula espinhal', 1),
+(56, 'O sistema nervoso central é formado pelo cérebro e pela medula espinhal.', 1),
+(56, 'É o sistemas responsável por recebimento das informações, o cérebro ea colona espinhal o compõem', 1),
+(56, 'Centro de comando do corpo: cérebro e medula espinhal', 1),
+(56, 'Sistema responsável por enviar comando através do cérebro pelos nervos para o restante do corpo.', 1);
 
 -- pergunta 57 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(57, '', 1);
-(57, '', 1);
-(57, '', 1);
-(57, '', 1);
-(57, '', 1);
-(57, '', 1);
-(57, '', 1);
-(57, '', 1);
-(57, '', 1);
-(57, '', 1);
-(57, '', 1);
-(57, '', 1);
-(57, '', 1);
-(57, '', 1);
-(57, '', 1);
-(57, '', 1);
-(57, '', 1);
-(57, '', 1);
-(57, '', 1);
-(57, '', 1);
-(57, '', 1);
+(57, 'o frio intenso, diminui as atividade físico-químico, como a oxidação e ação das enzimas além de inativar a atividade de microrganismo', 1),
+(57, 'Porque para um alimento estragar entrar estado de decomposição ele precisa de oxigênio para que assim as bactérias decompositoras possam atuar. No caso de alimentos congelados, o gelo que está em volta dá comida vai funcionar como se fosse uma cápsula', 1),
+(57, 'Porque as baixas temperaturas impede a multiplicação de bactérias e fungos e retardam as reações químicas que causam a decomposição', 1),
+(57, 'Por causa da temperatura baixa, que preserva o alimento.', 1),
+(57, 'porque o frio diminui a ação dos microrganismos', 1),
+(57, 'Porque retarda-se o processo de decomposição por microrganismos.', 1),
+(57, 'O congelamento diminui a atividade dos microrganismos e retarda reações que causam a deterioração dos alimentos.', 1),
+(57, 'Você evita o calor é que o processo de decomposição correria mais rápido', 1),
+(57, 'Frio impede bactéria e fungo de crescer', 1),
+(57, 'Repouso das moléculas ao estar em baixa temperatura que dificulta o acesso de fungos e bactérias.', 1);
 
 -- pergunta 58 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(58, '', 1);
-(58, '', 1);
-(58, '', 1);
-(58, '', 1);
-(58, '', 1);
-(58, '', 1);
-(58, '', 1);
-(58, '', 1);
-(58, '', 1);
-(58, '', 1);
-(58, '', 1);
-(58, '', 1);
-(58, '', 1);
-(58, '', 1);
-(58, '', 1);
-(58, '', 1);
-(58, '', 1);
-(58, '', 1);
-(58, '', 1);
-(58, '', 1);
-(58, '', 1);
+(58, 'é o processo físico-químico em que as plantas transforma luz e energia solar, água e CO2 em glicose e oxigênio, sendo a glicose consumida como energia pelas plantas e oxigênio é expelido para o ambiente', 1),
+(58, 'é a forma como as plantas ganham energia. Elas fazem oxigênio.', 1),
+(58, 'Fotossíntese é o processo que as plantas utilizam para produzir seu próprio alimento. Para isso ela vai precisar de sol, gás carbônico, água. E ela é essencial porque a partir disso ela vai dar início ao processo da cadeia alimentar e a produção de oxigênio', 1),
+(58, 'Processo onde seres vivos usam energia solar para transformar gás carbônico e água em glicose e liberem oxigênio. Ele essencial por que nós precisamos de oxigênio', 1),
+(58, 'é o processo em que as plantas produzem seu alimento e liberam oxigênio', 1),
+(58, 'A fotossíntese é como a planta recebe nutrientes, durante a fotossíntese a planta acaba também filtrando o ar', 1),
+(58, 'Síntese de energia solar em matéria orgânica pelas plantas.', 1),
+(58, 'Fotossíntese é o processo pelo qual as plantas usam luz, água e gás carbônico para produzir alimento e liberar oxigênio.', 1),
+(58, 'É o processo em as plantas sé alimentão, nessa processo elas liberem Oxigênio esemcial para a vida, elem se manterem vivas( são a base da cadeia alimentar )', 1),
+(58, 'Planta faz comida com Sol + água + CO2 e libera oxigênio. Essencial pra vida', 1),
+(58, 'A fotocintese é o processo de absorção de energia solar de uma planta por meio da folha. Um processo de produção de açúcar servindo de alimentação para uma planta', 1);
 
 -- pergunta 59 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(59, '', 1);
-(59, '', 1);
-(59, '', 1);
-(59, '', 1);
-(59, '', 1);
-(59, '', 1);
-(59, '', 1);
-(59, '', 1);
-(59, '', 1);
-(59, '', 1);
-(59, '', 1);
-(59, '', 1);
-(59, '', 1);
-(59, '', 1);
-(59, '', 1);
-(59, '', 1);
-(59, '', 1);
-(59, '', 1);
-(59, '', 1);
-(59, '', 1);
-(59, '', 1);
+(59, 'Ocorre quando restos vegetais são soterrados por varias camadas de terra e sedimento como lama e areia por um longo período de tempo protegendo contra ação do oxigênio fungos e microrganismos, onde ocorre a conservação das estruturas total ou parcial das estruturas das plantas', 1),
+(59, 'Por meio do soterramento rápido de restos vegetais', 1),
+(59, 'Não sei', 1),
+(59, 'formam quando seus restos ficam enterrados em sedimentos e são preservados nas rochas ao longo do tempo', 1),
+(59, 'Fósseis de plantas podem se formar quando partes da planta são soterradas e preservadas, sendo gradualmente substituídas ou registradas nas rochas.', 1),
+(59, 'Do mesmo modo que os de animais, sei que precisa um solo ou condições específicas', 1),
+(59, 'Soterração rápida das plantas e em alguns casos a presença de microorganismos decompondo a planta e deixando o molde na pedra', 1);
 
 -- pergunta 60 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(60, '', 1);
-(60, '', 1);
-(60, '', 1);
-(60, '', 1);
-(60, '', 1);
-(60, '', 1);
-(60, '', 1);
-(60, '', 1);
-(60, '', 1);
-(60, '', 1);
-(60, '', 1);
-(60, '', 1);
-(60, '', 1);
-(60, '', 1);
-(60, '', 1);
-(60, '', 1);
-(60, '', 1);
-(60, '', 1);
-(60, '', 1);
-(60, '', 1);
-(60, '', 1);
+(60, 'são alimentos feitos para durarem mais', 1),
+(60, 'Seres vivos com alteração induzida em seu DNA.', 1),
+(60, 'Seres vivos que tiveram seu material genético alterado em laboratório por meio de técnicas de engenharia genética', 1),
+(60, 'São organismos que pesquisadores alteraram os genomas para alterar componentes como tamanho, velocidade de crescimento sabor.', 1),
+(60, 'Organismos que tiveram o gene de outro tipo diferente do seu inserido artificialmente', 1),
+(60, 'são seres vivos que têm seu DNA modificado para adquirir novas características', 1),
+(60, 'Organismos geneticamente modificados são seres vivos cujo material genético foi alterado por técnicas de engenharia genética.', 1),
+(60, 'Ser vivo com DNA alterado em laboratório pra ter nova característica', 1);
+
 -- resposta da ia --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
 (1, 'Os fosseis sao vestigios antigos de seres vivos preservados nas rochas. Eles revelam como era a vida antigamente e especies que ja nao existem hoje em dia.', 2),

@@ -1,9 +1,5 @@
-USE `teste_turing`;
-
--- =====================================================
--- 1. TABELA `pergunta` (60 perguntas)
--- =====================================================
-INSERT INTO `pergunta` (`idpergunta`, `enunciado`) VALUES
+-- perguntas --
+INSERT INTO `teste_turing`.`pergunta` (`idpergunta`, `enunciado`) VALUES
 (1, 'O que são os fósseis e o que eles revelam?'),
 (2, 'Por que o céu é azul durante o dia?'),
 (3, 'Como o nosso corpo produz energia através dos alimentos?'),
@@ -65,91 +61,1506 @@ INSERT INTO `pergunta` (`idpergunta`, `enunciado`) VALUES
 (59, 'Como se formam os fósseis de plantas em rochas?'),
 (60, 'O que são organismos geneticamente modificados (transgênicos)?');
 
+-- resposta humana de cada pergunta --
+-- pergunta 1 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(1, 'Fósseis são restos de um ser vivo que morreu -  revelam o passado ', 1);
+(1, '"Os fósseis são restos, marcas ou vestígios de seres vivos que viveram no passado e foram preservados nas rochas.
+Eles revelam informações sobre a vida na Terra em épocas antigas"', 1);
+(1, 'Restos ou vestígios de seres orgânicos mortos há milhões de anos, ajudam a revelar a linha evolutiva e a idade geológica com, por exemplo, datação por carbono.', 1);
+(1, 'São partes dos corpos e estruturas de organismos, que foram conservados na crosta terrestre por milhões de anos, eles permitem conhecer um pouco de como eram os ecossistemas do passado ', 1);
+(1, 'Traços de um tempo passado que revelam como o mundo era antes de nós.', 1);
+(1, 'Fósseis são restos de plantas, animais(organismos) que viveram no planeta a diversos anos atrás. Eles revelam a evolução, comportamento, questões geográficas e demais informações que contribuem para o entendimento de como era a vida na Terra em determinado período.', 1);
+(1, 'São requissios do passado, ele podem nos mostrar um pouco desse passado ', 1);
+(1, 'São pedras com formatos de animais no meio. Eles revelam a existência de animais que não chegamos a ver vivos.', 1);
+(1, 'ossos de algum organismo que está ali a muito tempo e revelam a história por trás deles', 1);
+(1, 'São restos de seres vivos vertebrados. Eles revelam a quanto tempo estão mortos.', 1);
+(1, 'fósseis são materiais antigos e enterrados, principalmente ossos. Eles revelam o passado de uma época ', 1);
+(1, 'São restos animais, que os animais mirreram a muito tempo', 1);
+(1, 'Esqueletos preservados de espécies que viveram ao longo de diferentes períodos da história, que revelam características ambientais de suas eras.', 1);
+(1, 'São ossos  de animais que viveram a muitos anos e nos mostram como eles viveram', 1);
+(1, 'São restos de animais e plantas que já se decompos, revelam a história da evolução.', 1);
+(1, 'São restos de animais que foram preservados. Eles revelam informações sobre como era a vida do animal, como ele vivia e a quanto tempo viveu.', 1);
+(1, 'Fósseis são vestígios preservados de animais ou plantas. Revelam espécies extintas e a evolução da vida. ', 1);
+(1, 'fósseis são restos ou vestígios de seres vivos antigos e revelam como eles viviam', 1);
+(1, 'Fósseis são ossos de animais mortos e eles revelam uma espécie de um animal', 1);
+(1, 'É a preservação de um corpo em um certo lugar, é a revelação de um corpo', 1);
+(1, 'Restos de seres antigos preservados nas rochas', 1);
 
--- =====================================================
--- 2. TABELA `resposta` (Respostas de IA [2] + Respostas Humanas [1])
--- =====================================================
-INSERT INTO `resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
--- Respostas de Inteligência Artificial (tipo_resposta = 2)
-(1, 'Achei aqui que são restos ou marcas de seres vivos bem antigos, de milhares ou milhões de anos. Pelo que li, eles ajudam os cientistas a entender como os animais e plantas evoluíram e como era o clima e os ambientes do passado.', 2),
-(2, 'A explicação tem a ver com a luz do Sol a bater nos gases da atmosfera. A luz do Sol tem todas as cores, mas a cor azul espalha-se mais fácil pelo ar porque tem ondas mais curtinhas.', 2),
-(3, 'Pesquisei aqui e vi que a digestão transforma a comida em coisas mais simples, tipo glicose. Depois, as células usam o oxigénio que respiramos para queimar essa glicose na respiração celular e gerar energia.', 2),
-(4, 'Eles acontecem por causa das placas tectónicas, que são uns blocos gigantes que formam a crosta da Terra e se movem. Quando elas se chocam ou se raspam, acumulam energia e libertam tudo de uma vez, causando os tremores.', 2),
-(5, 'Do que li, as bactérias são células completas e vivas que conseguem viver por conta própria. Os vírus não são células inteiras e precisam invadir outro ser vivo para conseguir multiplicar-se.', 2),
-(6, 'É uma questão de velocidade! A luz do raio viaja muito rápido, a uns 300 mil km por segundo. O som do trovão é bem mais lento, a cerca de 340 metros por segundo, por isso demora mais a chegar.', 2),
-(7, 'Os genes são trechos de DNA que guardam as nossas características, tipo a cor dos olhos. Pesquisei e vi que eles ficam guardados dentro do núcleo de quase todas as nossas células.', 2),
-(8, 'Formam-se no encontro das tais placas tectónicas ou em partes mais finas do solo. Quando a pressão lá dentro fica muito grande, o magma sobe e sai na superfície como lava.', 2),
-(9, 'É um processo natural onde os gases do ar seguram o calor do Sol para a Terra não ficar gelada. O problema hoje em dia é que a poluição aumentou esses gases e está a aquecer demais o planeta.', 2),
-(10, 'A dor serve como um alarme de defesa. Quando nos magoamos, os nervos enviam um sinal elétrico direto para o cérebro, fazendo-nos reagir para evitar um estrago maior.', 2),
-(11, 'O coração funciona como uma bomba. Ele empurra o sangue pelas artérias com oxigénio para o corpo todo, e depois o sangue volta pelas veias até aos pulmões para pegar mais oxigénio.', 2),
-(12, 'É a variedade imensa de seres vivos do planeta (plantas, bichos, fungos). Temos de preservar porque todos dependem uns dos outros para manter a natureza em equilíbrio.', 2),
-(13, 'Na verdade, a Lua não muda de formato. O que muda é a parte dela iluminada pelo Sol que a gente consegue ver da Terra enquanto ela gira à nossa volta.', 2),
-(14, 'Acontece quando a Lua fica exatamente no meio do caminho entre a Terra e o Sol. Ela esconde a luz do Sol e projeta uma sombra aqui na Terra.', 2),
-(15, 'São remédios feitos para matar bactérias. Pelo que vi, não funcionam contra vírus, então não servem para gripes ou constipações.', 2),
-(16, 'Acontece porque as chuvas desgastaram as rochas durante milhões de anos e foram levando os minerais para os rios até chegar ao mar. O mineral que mais acumulou foi o cloreto de sódio (sal).', 2),
-(17, 'É a camada de ar que envolve a Terra. Ela serve para dar o oxigénio que respiramos, controlar a temperatura e proteger de radiações do Sol e de meteoros.', 2),
-(18, 'Se usados mal, as bactérias mais fracas morrem e as mais fortes sobram e multiplicam-se. Com o tempo, criam resistência e o remédio deixa de fazer efeito.', 2),
-(19, 'É o equilíbrio entre os seres vivos e o meio ambiente, dependendo do controlo natural das espécies através da cadeia alimentar.', 2),
-(20, 'São células do sistema nervoso que transmitem informações. Comunicam-se por impulsos elétricos e sinais químicos chamados neurotransmissores.', 2),
-(21, 'É a água a evaporar com o calor do Sol, a virar nuvens no ar, a arrefecer e a cair como chuva para encher os rios e lagos de novo.', 2),
-(22, 'Por causa da clorofila, que absorve a luz do Sol para a fotossíntese. Ela reflete a cor verde para os nossos olhos.', 2),
-(23, 'São pedaços de rocha do espaço que entram na nossa atmosfera. Brilham porque o atrito com o ar faz com que fiquem tão quentes que queimam.', 2),
-(24, 'É a ideia de que os seres vivos mais bem adaptados ao ambiente têm mais hipóteses de sobreviver e ter filhotes, passando as suas características para a frente.', 2),
-(25, 'O suor serve para arrefecer o corpo. Quando o suor evapora da pele, evita que a gente aqueça demais quando faz calor ou exercício.', 2),
-(26, 'Quando o animal morria, era coberto por lama ou areia. Coisas moles desintegraram-se e os minerais da água ocuparam o lugar dos ossos, virando pedra.', 2),
-(27, 'É uma molécula nas nossas células que funciona como um manual de instruções com tudo sobre como o nosso corpo é feito e funciona.', 2),
-(28, 'As lentes alteram a direção dos raios de luz para que a imagem foque exatamente no fundo do olho (retina).', 2),
-(29, 'É uma camada de gás no ar que filtra os raios ultravioleta nocivos do Sol.', 2),
-(30, 'Fungos e bactérias que comem plantas e animais mortos, transformando tudo em nutrientes para o solo.', 2),
-(31, 'Ele tem um conjunto de células que funciona como um marcapasso natural, soltando impulsos elétricos no ritmo certo.', 2),
-(32, 'Depende da densidade. Se for mais denso que a água, afunda; se for menos denso, flutua impulsionado pelo empuxo.', 2),
-(33, 'É o sistema de defesa do corpo que combate germes como vírus, bactérias e fungos.', 2),
-(34, 'Porque o som precisa do ar ou de outra matéria para se espalhar em ondas, e o espaço é um vácuo vazio.', 2),
-(35, 'O Sol aquece o ar de forma desigual; o ar quente sobe e o frio ocupa o lugar, criando a corrente de vento.', 2),
-(36, 'É a coleção completa de todas as informações genéticas (DNA) de uma pessoa.', 2),
-(37, 'Por causa da ação de bactérias e fungos a crescer na comida e de reações com o ar.', 2),
-(38, 'Filtram o sangue tirando as toxinas e o excesso de água, que depois saem em forma de urina.', 2),
-(39, 'É energia vinda de fontes que não acabam, tipo a luz do Sol captada por painéis solares.', 2),
-(40, 'São células que se conseguem transformar em vários tecidos do corpo e ajudam a reconstruir partes doentias.', 2),
-(41, 'Acontecem quando há um terramoto no fundo do mar que empurra uma quantidade gigante de água de uma vez.', 2),
-(42, 'Caem para dar lugar aos dentes permanentes maiores, conforme o dente novo vai crescendo por baixo e soltando o antigo.', 2),
-(43, 'Funciona como um casaco que segura o calor do corpo e também serve de reserva de energia no frio.', 2),
-(44, 'É quando a luz muda de direção ao passar de um meio transparente para outro (como do ar para a água), entortando a imagem.', 2),
-(45, 'Porque usam fragmentos inofensivos ou vírus mortos, que só servem para ensinar o corpo a defender-se sem causar a doença.', 2),
-(46, 'É a camada de gás que cobre a Terra. As principais camadas são a troposfera (onde vivemos) e a estratosfera (onde fica o ozono).', 2),
-(47, 'Por causa da movimentação e das diferenças de temperatura no ar da atmosfera que desviam a luz até chegar aos nossos olhos.', 2),
-(48, 'Usam ecolocalização: soltam barulhos agudos que batem nas coisas e voltam como um eco para eles ouvirem onde estão os obstáculos.', 2),
-(49, 'É a junção dos seres vivos com o ambiente onde vivem (sol, água, terra).', 2),
-(50, 'Com o calor, as moléculas de água ganham energia e transformam-se em vapor que sobe para o ar.', 2),
-(51, 'É a proteína do sangue que pega no oxigénio nos pulmões e o leva até ao resto do corpo.', 2),
-(52, 'É o peso do ar em cima de nós. Não somos esmagados porque o nosso corpo empurra de dentro para fora com a mesma força.', 2),
-(53, 'O cristalino (a lente do olho) muda a sua curva através de pequenos músculos para dar o foco certo.', 2),
-(54, 'Têm químicas diferentes (uma é polar, a outra apolar) e repelem-se, e como o óleo é menos denso fica por cima.', 2),
-(55, 'Meteoros queimam-se todos no ar; meteoritos são os pedaços maiores que não se queimam por completo e caem no chão.', 2),
-(56, 'É o centro de controlo do corpo humano, formado pelo encéfalo (que inclui o cérebro) e pela medula espinhal.', 2),
-(57, 'O frio paralisa o crescimento dos germes e congela a água, travando o processo de estragar a comida.', 2),
-(58, 'É como as plantas produzem comida a partir do Sol e dióxido de carbono, libertando o oxigénio que respiramos.', 2),
-(59, 'Folhas que caem na lama são cobertas de sedimentos e o formato fica marcado na rocha conforme tudo vai endurecendo.', 2),
-(60, 'São plantas ou seres com alterações no DNA feitas no laboratório para ficarem mais resistentes a pragas ou ao clima.', 2),
+-- pergunta 2 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(2, '', 1);
+(2, '', 1);
+(2, '', 1);
+(2, '', 1);
+(2, '', 1);
+(2, '', 1);
+(2, '', 1);
+(2, '', 1);
+(2, '', 1);
+(2, '', 1);
+(2, '', 1);
+(2, '', 1);
+(2, '', 1);
+(2, '', 1);
+(2, '', 1);
+(2, '', 1);
+(2, '', 1);
+(2, '', 1);
+(2, '', 1);
+(2, '', 1);
+(2, '', 1);
 
--- Respostas de Humanos (tipo_resposta = 1)
-(1, 'Fósseis são restos de um ser vivo que morreu -  revelam o passado', 1),
-(2, 'Pq o sol trás claridade', 1),
-(3, 'Através do armazenamento das células ATP', 1),
-(4, 'O movimento das placas tectônicas', 1),
-(5, 'O vírus é uma célula e as bactérias não', 1),
-(6, 'Pq a luz é mais rápida que o som em relação a distância', 1),
-(7, 'São as células de DNA que ficam nos cromossômica X e Y', 1),
-(8, 'Calor com erupção', 1),
-(9, 'Aquecimento do planeta, importante para a sobrevivência dos seres vivos', 1),
-(10, 'Porque todo o corpo possui um sistema de proteção', 1),
-(11, 'Através de veias e artérias interligado aos órgãos nobres', 1),
-(12, 'Bio - vida  Diversidade - vários  Diversidade de seres vivos e sistemas , deve ser preservado pq um depende do outro', 1),
-(13, 'A luz não muda o formato o que muda é a posição do sol em relação a ela por isso vemos variações', 1),
-(14, 'Quando o sol e a lua se encontram', 1),
-(15, 'São medicamentos utilizados para combater bactérias devem ser usados quando uma doença é causada por uma bactéria', 1),
-(16, 'Por que possui minerais e sais na água como o sódio', 1),
-(17, 'É a camada de gases da terra e fornece os gases essenciais para sobrevivência dos seres humanos', 1),
-(18, 'Deixam de funcionar quando usado em casos virais ou quando existe uma resistência bacteriana e é utilizado o antibiótico errado', 1),
-(19, 'A fauna e a flora', 1),
-(20, 'São células responsáveis por receber os estímulos e processar informações, se comunicam através da sinapse', 1);
+-- pergunta 3 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(3, '', 1);
+(3, '', 1);
+(3, '', 1);
+(3, '', 1);
+(3, '', 1);
+(3, '', 1);
+(3, '', 1);
+(3, '', 1);
+(3, '', 1);
+(3, '', 1);
+(3, '', 1);
+(3, '', 1);
+(3, '', 1);
+(3, '', 1);
+(3, '', 1);
+(3, '', 1);
+(3, '', 1);
+(3, '', 1);
+(3, '', 1);
+(3, '', 1);
+(3, '', 1);
+
+-- pergunta 4 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(4, '', 1);
+(4, '', 1);
+(4, '', 1);
+(4, '', 1);
+(4, '', 1);
+(4, '', 1);
+(4, '', 1);
+(4, '', 1);
+(4, '', 1);
+(4, '', 1);
+(4, '', 1);
+(4, '', 1);
+(4, '', 1);
+(4, '', 1);
+(4, '', 1);
+(4, '', 1);
+(4, '', 1);
+(4, '', 1);
+(4, '', 1);
+(4, '', 1);
+(4, '', 1);
+
+-- pergunta 5 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(5, '', 1);
+(5, '', 1);
+(5, '', 1);
+(5, '', 1);
+(5, '', 1);
+(5, '', 1);
+(5, '', 1);
+(5, '', 1);
+(5, '', 1);
+(5, '', 1);
+(5, '', 1);
+(5, '', 1);
+(5, '', 1);
+(5, '', 1);
+(5, '', 1);
+(5, '', 1);
+(5, '', 1);
+(5, '', 1);
+(5, '', 1);
+(5, '', 1);
+(5, '', 1);
+
+-- pergunta 6 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(6, '', 1);
+(6, '', 1);
+(6, '', 1);
+(6, '', 1);
+(6, '', 1);
+(6, '', 1);
+(6, '', 1);
+(6, '', 1);
+(6, '', 1);
+(6, '', 1);
+(6, '', 1);
+(6, '', 1);
+(6, '', 1);
+(6, '', 1);
+(6, '', 1);
+(6, '', 1);
+(6, '', 1);
+(6, '', 1);
+(6, '', 1);
+(6, '', 1);
+(6, '', 1);
+
+-- pergunta 7 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(7, '', 1);
+(7, '', 1);
+(7, '', 1);
+(7, '', 1);
+(7, '', 1);
+(7, '', 1);
+(7, '', 1);
+(7, '', 1);
+(7, '', 1);
+(7, '', 1);
+(7, '', 1);
+(7, '', 1);
+(7, '', 1);
+(7, '', 1);
+(7, '', 1);
+(7, '', 1);
+(7, '', 1);
+(7, '', 1);
+(7, '', 1);
+(7, '', 1);
+(7, '', 1);
+
+-- pergunta 8 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(8, '', 1);
+(8, '', 1);
+(8, '', 1);
+(8, '', 1);
+(8, '', 1);
+(8, '', 1);
+(8, '', 1);
+(8, '', 1);
+(8, '', 1);
+(8, '', 1);
+(8, '', 1);
+(8, '', 1);
+(8, '', 1);
+(8, '', 1);
+(8, '', 1);
+(8, '', 1);
+(8, '', 1);
+(8, '', 1);
+(8, '', 1);
+(8, '', 1);
+(8, '', 1);
+
+-- pergunta 9 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(9, '', 1);
+(9, '', 1);
+(9, '', 1);
+(9, '', 1);
+(9, '', 1);
+(9, '', 1);
+(9, '', 1);
+(9, '', 1);
+(9, '', 1);
+(9, '', 1);
+(9, '', 1);
+(9, '', 1);
+(9, '', 1);
+(9, '', 1);
+(9, '', 1);
+(9, '', 1);
+(9, '', 1);
+(9, '', 1);
+(9, '', 1);
+(9, '', 1);
+(9, '', 1);
+
+-- pergunta 10 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(10, '', 1);
+(10, '', 1);
+(10, '', 1);
+(10, '', 1);
+(10, '', 1);
+(10, '', 1);
+(10, '', 1);
+(10, '', 1);
+(10, '', 1);
+(10, '', 1);
+(10, '', 1);
+(10, '', 1);
+(10, '', 1);
+(10, '', 1);
+(10, '', 1);
+(10, '', 1);
+(10, '', 1);
+(10, '', 1);
+(10, '', 1);
+(10, '', 1);
+(10, '', 1);
+
+-- pergunta 11 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(11, '', 1);
+(11, '', 1);
+(11, '', 1);
+(11, '', 1);
+(11, '', 1);
+(11, '', 1);
+(11, '', 1);
+(11, '', 1);
+(11, '', 1);
+(11, '', 1);
+(11, '', 1);
+(11, '', 1);
+(11, '', 1);
+(11, '', 1);
+(11, '', 1);
+(11, '', 1);
+(11, '', 1);
+(11, '', 1);
+(11, '', 1);
+(11, '', 1);
+(11, '', 1);
+
+-- pergunta 12 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(12, '', 1);
+(12, '', 1);
+(12, '', 1);
+(12, '', 1);
+(12, '', 1);
+(12, '', 1);
+(12, '', 1);
+(12, '', 1);
+(12, '', 1);
+(12, '', 1);
+(12, '', 1);
+(12, '', 1);
+(12, '', 1);
+(12, '', 1);
+(12, '', 1);
+(12, '', 1);
+(12, '', 1);
+(12, '', 1);
+(12, '', 1);
+(12, '', 1);
+(12, '', 1);
+
+-- pergunta 13 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(13, '', 1);
+(13, '', 1);
+(13, '', 1);
+(13, '', 1);
+(13, '', 1);
+(13, '', 1);
+(13, '', 1);
+(13, '', 1);
+(13, '', 1);
+(13, '', 1);
+(13, '', 1);
+(13, '', 1);
+(13, '', 1);
+(13, '', 1);
+(13, '', 1);
+(13, '', 1);
+(13, '', 1);
+(13, '', 1);
+(13, '', 1);
+(13, '', 1);
+(13, '', 1);
+
+-- pergunta 14 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(14, '', 1);
+(14, '', 1);
+(14, '', 1);
+(14, '', 1);
+(14, '', 1);
+(14, '', 1);
+(14, '', 1);
+(14, '', 1);
+(14, '', 1);
+(14, '', 1);
+(14, '', 1);
+(14, '', 1);
+(14, '', 1);
+(14, '', 1);
+(14, '', 1);
+(14, '', 1);
+(14, '', 1);
+(14, '', 1);
+(14, '', 1);
+(14, '', 1);
+(14, '', 1);
+
+-- pergunta 15 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(15, '', 1);
+(15, '', 1);
+(15, '', 1);
+(15, '', 1);
+(15, '', 1);
+(15, '', 1);
+(15, '', 1);
+(15, '', 1);
+(15, '', 1);
+(15, '', 1);
+(15, '', 1);
+(15, '', 1);
+(15, '', 1);
+(15, '', 1);
+(15, '', 1);
+(15, '', 1);
+(15, '', 1);
+(15, '', 1);
+(15, '', 1);
+(15, '', 1);
+(15, '', 1);
+
+-- pergunta 16 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(16, '', 1);
+(16, '', 1);
+(16, '', 1);
+(16, '', 1);
+(16, '', 1);
+(16, '', 1);
+(16, '', 1);
+(16, '', 1);
+(16, '', 1);
+(16, '', 1);
+(16, '', 1);
+(16, '', 1);
+(16, '', 1);
+(16, '', 1);
+(16, '', 1);
+(16, '', 1);
+(16, '', 1);
+(16, '', 1);
+(16, '', 1);
+(16, '', 1);
+(16, '', 1);
+
+-- pergunta 17 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(17, '', 1);
+(17, '', 1);
+(17, '', 1);
+(17, '', 1);
+(17, '', 1);
+(17, '', 1);
+(17, '', 1);
+(17, '', 1);
+(17, '', 1);
+(17, '', 1);
+(17, '', 1);
+(17, '', 1);
+(17, '', 1);
+(17, '', 1);
+(17, '', 1);
+(17, '', 1);
+(17, '', 1);
+(17, '', 1);
+(17, '', 1);
+(17, '', 1);
+(17, '', 1);
+
+-- pergunta 18 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(18, '', 1);
+(18, '', 1);
+(18, '', 1);
+(18, '', 1);
+(18, '', 1);
+(18, '', 1);
+(18, '', 1);
+(18, '', 1);
+(18, '', 1);
+(18, '', 1);
+(18, '', 1);
+(18, '', 1);
+(18, '', 1);
+(18, '', 1);
+(18, '', 1);
+(18, '', 1);
+(18, '', 1);
+(18, '', 1);
+(18, '', 1);
+(18, '', 1);
+(18, '', 1);
+
+-- pergunta 19 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(19, '', 1);
+(19, '', 1);
+(19, '', 1);
+(19, '', 1);
+(19, '', 1);
+(19, '', 1);
+(19, '', 1);
+(19, '', 1);
+(19, '', 1);
+(19, '', 1);
+(19, '', 1);
+(19, '', 1);
+(19, '', 1);
+(19, '', 1);
+(19, '', 1);
+(19, '', 1);
+(19, '', 1);
+(19, '', 1);
+(19, '', 1);
+(19, '', 1);
+(19, '', 1);
+
+-- pergunta 20 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(20, '', 1);
+(20, '', 1);
+(20, '', 1);
+(20, '', 1);
+(20, '', 1);
+(20, '', 1);
+(20, '', 1);
+(20, '', 1);
+(20, '', 1);
+(20, '', 1);
+(20, '', 1);
+(20, '', 1);
+(20, '', 1);
+(20, '', 1);
+(20, '', 1);
+(20, '', 1);
+(20, '', 1);
+(20, '', 1);
+(20, '', 1);
+(20, '', 1);
+(20, '', 1);
+
+-- pergunta 21 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(21, '', 1);
+(21, '', 1);
+(21, '', 1);
+(21, '', 1);
+(21, '', 1);
+(21, '', 1);
+(21, '', 1);
+(21, '', 1);
+(21, '', 1);
+(21, '', 1);
+(21, '', 1);
+(21, '', 1);
+(21, '', 1);
+(21, '', 1);
+(21, '', 1);
+(21, '', 1);
+(21, '', 1);
+(21, '', 1);
+(21, '', 1);
+(21, '', 1);
+(21, '', 1);
+
+-- pergunta 22 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(22, '', 1);
+(22, '', 1);
+(22, '', 1);
+(22, '', 1);
+(22, '', 1);
+(22, '', 1);
+(22, '', 1);
+(22, '', 1);
+(22, '', 1);
+(22, '', 1);
+(22, '', 1);
+(22, '', 1);
+(22, '', 1);
+(22, '', 1);
+(22, '', 1);
+(22, '', 1);
+(22, '', 1);
+(22, '', 1);
+(22, '', 1);
+(22, '', 1);
+(22, '', 1);
+
+-- pergunta 23 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(23, '', 1);
+(23, '', 1);
+(23, '', 1);
+(23, '', 1);
+(23, '', 1);
+(23, '', 1);
+(23, '', 1);
+(23, '', 1);
+(23, '', 1);
+(23, '', 1);
+(23, '', 1);
+(23, '', 1);
+(23, '', 1);
+(23, '', 1);
+(23, '', 1);
+(23, '', 1);
+(23, '', 1);
+(23, '', 1);
+(23, '', 1);
+(23, '', 1);
+(23, '', 1);
+
+-- pergunta 24 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(24, '', 1);
+(24, '', 1);
+(24, '', 1);
+(24, '', 1);
+(24, '', 1);
+(24, '', 1);
+(24, '', 1);
+(24, '', 1);
+(24, '', 1);
+(24, '', 1);
+(24, '', 1);
+(24, '', 1);
+(24, '', 1);
+(24, '', 1);
+(24, '', 1);
+(24, '', 1);
+(24, '', 1);
+(24, '', 1);
+(24, '', 1);
+(24, '', 1);
+(24, '', 1);
+
+-- pergunta 25 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(25, '', 1);
+(25, '', 1);
+(25, '', 1);
+(25, '', 1);
+(25, '', 1);
+(25, '', 1);
+(25, '', 1);
+(25, '', 1);
+(25, '', 1);
+(25, '', 1);
+(25, '', 1);
+(25, '', 1);
+(25, '', 1);
+(25, '', 1);
+(25, '', 1);
+(25, '', 1);
+(25, '', 1);
+(25, '', 1);
+(25, '', 1);
+(25, '', 1);
+(25, '', 1);
+
+-- pergunta 26 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(26, '', 1);
+(26, '', 1);
+(26, '', 1);
+(26, '', 1);
+(26, '', 1);
+(26, '', 1);
+(26, '', 1);
+(26, '', 1);
+(26, '', 1);
+(26, '', 1);
+(26, '', 1);
+(26, '', 1);
+(26, '', 1);
+(26, '', 1);
+(26, '', 1);
+(26, '', 1);
+(26, '', 1);
+(26, '', 1);
+(26, '', 1);
+(26, '', 1);
+(26, '', 1);
+
+-- pergunta 27 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(27, '', 1);
+(27, '', 1);
+(27, '', 1);
+(27, '', 1);
+(27, '', 1);
+(27, '', 1);
+(27, '', 1);
+(27, '', 1);
+(27, '', 1);
+(27, '', 1);
+(27, '', 1);
+(27, '', 1);
+(27, '', 1);
+(27, '', 1);
+(27, '', 1);
+(27, '', 1);
+(27, '', 1);
+(27, '', 1);
+(27, '', 1);
+(27, '', 1);
+(27, '', 1);
+
+-- pergunta 28 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(28, '', 1);
+(28, '', 1);
+(28, '', 1);
+(28, '', 1);
+(28, '', 1);
+(28, '', 1);
+(28, '', 1);
+(28, '', 1);
+(28, '', 1);
+(28, '', 1);
+(28, '', 1);
+(28, '', 1);
+(28, '', 1);
+(28, '', 1);
+(28, '', 1);
+(28, '', 1);
+(28, '', 1);
+(28, '', 1);
+(28, '', 1);
+(28, '', 1);
+(28, '', 1);
+
+-- pergunta 29 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(29, '', 1);
+(29, '', 1);
+(29, '', 1);
+(29, '', 1);
+(29, '', 1);
+(29, '', 1);
+(29, '', 1);
+(29, '', 1);
+(29, '', 1);
+(29, '', 1);
+(29, '', 1);
+(29, '', 1);
+(29, '', 1);
+(29, '', 1);
+(29, '', 1);
+(29, '', 1);
+(29, '', 1);
+(29, '', 1);
+(29, '', 1);
+(29, '', 1);
+(29, '', 1);
+
+-- pergunta 30 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(30, '', 1);
+(30, '', 1);
+(30, '', 1);
+(30, '', 1);
+(30, '', 1);
+(30, '', 1);
+(30, '', 1);
+(30, '', 1);
+(30, '', 1);
+(30, '', 1);
+(30, '', 1);
+(30, '', 1);
+(30, '', 1);
+(30, '', 1);
+(30, '', 1);
+(30, '', 1);
+(30, '', 1);
+(30, '', 1);
+(30, '', 1);
+(30, '', 1);
+(30, '', 1);
+
+-- pergunta 31 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(31, '', 1);
+(31, '', 1);
+(31, '', 1);
+(31, '', 1);
+(31, '', 1);
+(31, '', 1);
+(31, '', 1);
+(31, '', 1);
+(31, '', 1);
+(31, '', 1);
+(31, '', 1);
+(31, '', 1);
+(31, '', 1);
+(31, '', 1);
+(31, '', 1);
+(31, '', 1);
+(31, '', 1);
+(31, '', 1);
+(31, '', 1);
+(31, '', 1);
+(31, '', 1);
+
+-- pergunta 32 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(32, '', 1);
+(32, '', 1);
+(32, '', 1);
+(32, '', 1);
+(32, '', 1);
+(32, '', 1);
+(32, '', 1);
+(32, '', 1);
+(32, '', 1);
+(32, '', 1);
+(32, '', 1);
+(32, '', 1);
+(32, '', 1);
+(32, '', 1);
+(32, '', 1);
+(32, '', 1);
+(32, '', 1);
+(32, '', 1);
+(32, '', 1);
+(32, '', 1);
+(32, '', 1);
+
+-- pergunta 33 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(33, '', 1);
+(33, '', 1);
+(33, '', 1);
+(33, '', 1);
+(33, '', 1);
+(33, '', 1);
+(33, '', 1);
+(33, '', 1);
+(33, '', 1);
+(33, '', 1);
+(33, '', 1);
+(33, '', 1);
+(33, '', 1);
+(33, '', 1);
+(33, '', 1);
+(33, '', 1);
+(33, '', 1);
+(33, '', 1);
+(33, '', 1);
+(33, '', 1);
+(33, '', 1);
+
+-- pergunta 34 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(34, '', 1);
+(34, '', 1);
+(34, '', 1);
+(34, '', 1);
+(34, '', 1);
+(34, '', 1);
+(34, '', 1);
+(34, '', 1);
+(34, '', 1);
+(34, '', 1);
+(34, '', 1);
+(34, '', 1);
+(34, '', 1);
+(34, '', 1);
+(34, '', 1);
+(34, '', 1);
+(34, '', 1);
+(34, '', 1);
+(34, '', 1);
+(34, '', 1);
+(34, '', 1);
+
+-- pergunta 35 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(35, '', 1);
+(35, '', 1);
+(35, '', 1);
+(35, '', 1);
+(35, '', 1);
+(35, '', 1);
+(35, '', 1);
+(35, '', 1);
+(35, '', 1);
+(35, '', 1);
+(35, '', 1);
+(35, '', 1);
+(35, '', 1);
+(35, '', 1);
+(35, '', 1);
+(35, '', 1);
+(35, '', 1);
+(35, '', 1);
+(35, '', 1);
+(35, '', 1);
+(35, '', 1);
+
+-- pergunta 36 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(36, '', 1);
+(36, '', 1);
+(36, '', 1);
+(36, '', 1);
+(36, '', 1);
+(36, '', 1);
+(36, '', 1);
+(36, '', 1);
+(36, '', 1);
+(36, '', 1);
+(36, '', 1);
+(36, '', 1);
+(36, '', 1);
+(36, '', 1);
+(36, '', 1);
+(36, '', 1);
+(36, '', 1);
+(36, '', 1);
+(36, '', 1);
+(36, '', 1);
+(36, '', 1);
+
+-- pergunta 37 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(37, '', 1);
+(37, '', 1);
+(37, '', 1);
+(37, '', 1);
+(37, '', 1);
+(37, '', 1);
+(37, '', 1);
+(37, '', 1);
+(37, '', 1);
+(37, '', 1);
+(37, '', 1);
+(37, '', 1);
+(37, '', 1);
+(37, '', 1);
+(37, '', 1);
+(37, '', 1);
+(37, '', 1);
+(37, '', 1);
+(37, '', 1);
+(37, '', 1);
+(37, '', 1);
+
+-- pergunta 38 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(38, '', 1);
+(38, '', 1);
+(38, '', 1);
+(38, '', 1);
+(38, '', 1);
+(38, '', 1);
+(38, '', 1);
+(38, '', 1);
+(38, '', 1);
+(38, '', 1);
+(38, '', 1);
+(38, '', 1);
+(38, '', 1);
+(38, '', 1);
+(38, '', 1);
+(38, '', 1);
+(38, '', 1);
+(38, '', 1);
+(38, '', 1);
+(38, '', 1);
+(38, '', 1);
+
+-- pergunta 39 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(39, '', 1);
+(39, '', 1);
+(39, '', 1);
+(39, '', 1);
+(39, '', 1);
+(39, '', 1);
+(39, '', 1);
+(39, '', 1);
+(39, '', 1);
+(39, '', 1);
+(39, '', 1);
+(39, '', 1);
+(39, '', 1);
+(39, '', 1);
+(39, '', 1);
+(39, '', 1);
+(39, '', 1);
+(39, '', 1);
+(39, '', 1);
+(39, '', 1);
+(39, '', 1);
+
+-- pergunta 40 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(40, '', 1);
+(40, '', 1);
+(40, '', 1);
+(40, '', 1);
+(40, '', 1);
+(40, '', 1);
+(40, '', 1);
+(40, '', 1);
+(40, '', 1);
+(40, '', 1);
+(40, '', 1);
+(40, '', 1);
+(40, '', 1);
+(40, '', 1);
+(40, '', 1);
+(40, '', 1);
+(40, '', 1);
+(40, '', 1);
+(40, '', 1);
+(40, '', 1);
+(40, '', 1);
+
+-- pergunta 41 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(41, '', 1);
+(41, '', 1);
+(41, '', 1);
+(41, '', 1);
+(41, '', 1);
+(41, '', 1);
+(41, '', 1);
+(41, '', 1);
+(41, '', 1);
+(41, '', 1);
+(41, '', 1);
+(41, '', 1);
+(41, '', 1);
+(41, '', 1);
+(41, '', 1);
+(41, '', 1);
+(41, '', 1);
+(41, '', 1);
+(41, '', 1);
+(41, '', 1);
+(41, '', 1);
+
+-- pergunta 42 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(42, '', 1);
+(42, '', 1);
+(42, '', 1);
+(42, '', 1);
+(42, '', 1);
+(42, '', 1);
+(42, '', 1);
+(42, '', 1);
+(42, '', 1);
+(42, '', 1);
+(42, '', 1);
+(42, '', 1);
+(42, '', 1);
+(42, '', 1);
+(42, '', 1);
+(42, '', 1);
+(42, '', 1);
+(42, '', 1);
+(42, '', 1);
+(42, '', 1);
+(42, '', 1);
+
+-- pergunta 43 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(43, '', 1);
+(43, '', 1);
+(43, '', 1);
+(43, '', 1);
+(43, '', 1);
+(43, '', 1);
+(43, '', 1);
+(43, '', 1);
+(43, '', 1);
+(43, '', 1);
+(43, '', 1);
+(43, '', 1);
+(43, '', 1);
+(43, '', 1);
+(43, '', 1);
+(43, '', 1);
+(43, '', 1);
+(43, '', 1);
+(43, '', 1);
+(43, '', 1);
+(43, '', 1);
+
+-- pergunta 44 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(44, '', 1);
+(44, '', 1);
+(44, '', 1);
+(44, '', 1);
+(44, '', 1);
+(44, '', 1);
+(44, '', 1);
+(44, '', 1);
+(44, '', 1);
+(44, '', 1);
+(44, '', 1);
+(44, '', 1);
+(44, '', 1);
+(44, '', 1);
+(44, '', 1);
+(44, '', 1);
+(44, '', 1);
+(44, '', 1);
+(44, '', 1);
+(44, '', 1);
+(44, '', 1);
+
+-- pergunta 45 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(45, '', 1);
+(45, '', 1);
+(45, '', 1);
+(45, '', 1);
+(45, '', 1);
+(45, '', 1);
+(45, '', 1);
+(45, '', 1);
+(45, '', 1);
+(45, '', 1);
+(45, '', 1);
+(45, '', 1);
+(45, '', 1);
+(45, '', 1);
+(45, '', 1);
+(45, '', 1);
+(45, '', 1);
+(45, '', 1);
+(45, '', 1);
+(45, '', 1);
+(45, '', 1);
+
+-- pergunta 46 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(46, '', 1);
+(46, '', 1);
+(46, '', 1);
+(46, '', 1);
+(46, '', 1);
+(46, '', 1);
+(46, '', 1);
+(46, '', 1);
+(46, '', 1);
+(46, '', 1);
+(46, '', 1);
+(46, '', 1);
+(46, '', 1);
+(46, '', 1);
+(46, '', 1);
+(46, '', 1);
+(46, '', 1);
+(46, '', 1);
+(46, '', 1);
+(46, '', 1);
+(46, '', 1);
+
+-- pergunta 47 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(47, '', 1);
+(47, '', 1);
+(47, '', 1);
+(47, '', 1);
+(47, '', 1);
+(47, '', 1);
+(47, '', 1);
+(47, '', 1);
+(47, '', 1);
+(47, '', 1);
+(47, '', 1);
+(47, '', 1);
+(47, '', 1);
+(47, '', 1);
+(47, '', 1);
+(47, '', 1);
+(47, '', 1);
+(47, '', 1);
+(47, '', 1);
+(47, '', 1);
+(47, '', 1);
+
+-- pergunta 48 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(48, '', 1);
+(48, '', 1);
+(48, '', 1);
+(48, '', 1);
+(48, '', 1);
+(48, '', 1);
+(48, '', 1);
+(48, '', 1);
+(48, '', 1);
+(48, '', 1);
+(48, '', 1);
+(48, '', 1);
+(48, '', 1);
+(48, '', 1);
+(48, '', 1);
+(48, '', 1);
+(48, '', 1);
+(48, '', 1);
+(48, '', 1);
+(48, '', 1);
+(48, '', 1);
+
+-- pergunta 49 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(49, '', 1);
+(49, '', 1);
+(49, '', 1);
+(49, '', 1);
+(49, '', 1);
+(49, '', 1);
+(49, '', 1);
+(49, '', 1);
+(49, '', 1);
+(49, '', 1);
+(49, '', 1);
+(49, '', 1);
+(49, '', 1);
+(49, '', 1);
+(49, '', 1);
+(49, '', 1);
+(49, '', 1);
+(49, '', 1);
+(49, '', 1);
+(49, '', 1);
+(49, '', 1);
+
+-- pergunta 50 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(50, '', 1);
+(50, '', 1);
+(50, '', 1);
+(50, '', 1);
+(50, '', 1);
+(50, '', 1);
+(50, '', 1);
+(50, '', 1);
+(50, '', 1);
+(50, '', 1);
+(50, '', 1);
+(50, '', 1);
+(50, '', 1);
+(50, '', 1);
+(50, '', 1);
+(50, '', 1);
+(50, '', 1);
+(50, '', 1);
+(50, '', 1);
+(50, '', 1);
+(50, '', 1);
+
+-- pergunta 51 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(51, '', 1);
+(51, '', 1);
+(51, '', 1);
+(51, '', 1);
+(51, '', 1);
+(51, '', 1);
+(51, '', 1);
+(51, '', 1);
+(51, '', 1);
+(51, '', 1);
+(51, '', 1);
+(51, '', 1);
+(51, '', 1);
+(51, '', 1);
+(51, '', 1);
+(51, '', 1);
+(51, '', 1);
+(51, '', 1);
+(51, '', 1);
+(51, '', 1);
+(51, '', 1);
+
+-- pergunta 52 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(52, '', 1);
+(52, '', 1);
+(52, '', 1);
+(52, '', 1);
+(52, '', 1);
+(52, '', 1);
+(52, '', 1);
+(52, '', 1);
+(52, '', 1);
+(52, '', 1);
+(52, '', 1);
+(52, '', 1);
+(52, '', 1);
+(52, '', 1);
+(52, '', 1);
+(52, '', 1);
+(52, '', 1);
+(52, '', 1);
+(52, '', 1);
+(52, '', 1);
+(52, '', 1);
+
+-- pergunta 53 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(53, '', 1);
+(53, '', 1);
+(53, '', 1);
+(53, '', 1);
+(53, '', 1);
+(53, '', 1);
+(53, '', 1);
+(53, '', 1);
+(53, '', 1);
+(53, '', 1);
+(53, '', 1);
+(53, '', 1);
+(53, '', 1);
+(53, '', 1);
+(53, '', 1);
+(53, '', 1);
+(53, '', 1);
+(53, '', 1);
+(53, '', 1);
+(53, '', 1);
+(53, '', 1);
+
+-- pergunta 54 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(54, '', 1);
+(54, '', 1);
+(54, '', 1);
+(54, '', 1);
+(54, '', 1);
+(54, '', 1);
+(54, '', 1);
+(54, '', 1);
+(54, '', 1);
+(54, '', 1);
+(54, '', 1);
+(54, '', 1);
+(54, '', 1);
+(54, '', 1);
+(54, '', 1);
+(54, '', 1);
+(54, '', 1);
+(54, '', 1);
+(54, '', 1);
+(54, '', 1);
+(54, '', 1);
+
+-- pergunta 55 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(55, '', 1);
+(55, '', 1);
+(55, '', 1);
+(55, '', 1);
+(55, '', 1);
+(55, '', 1);
+(55, '', 1);
+(55, '', 1);
+(55, '', 1);
+(55, '', 1);
+(55, '', 1);
+(55, '', 1);
+(55, '', 1);
+(55, '', 1);
+(55, '', 1);
+(55, '', 1);
+(55, '', 1);
+(55, '', 1);
+(55, '', 1);
+(55, '', 1);
+(55, '', 1);
+
+-- pergunta 56 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(56, '', 1);
+(56, '', 1);
+(56, '', 1);
+(56, '', 1);
+(56, '', 1);
+(56, '', 1);
+(56, '', 1);
+(56, '', 1);
+(56, '', 1);
+(56, '', 1);
+(56, '', 1);
+(56, '', 1);
+(56, '', 1);
+(56, '', 1);
+(56, '', 1);
+(56, '', 1);
+(56, '', 1);
+(56, '', 1);
+(56, '', 1);
+(56, '', 1);
+(56, '', 1);
+
+-- pergunta 57 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(57, '', 1);
+(57, '', 1);
+(57, '', 1);
+(57, '', 1);
+(57, '', 1);
+(57, '', 1);
+(57, '', 1);
+(57, '', 1);
+(57, '', 1);
+(57, '', 1);
+(57, '', 1);
+(57, '', 1);
+(57, '', 1);
+(57, '', 1);
+(57, '', 1);
+(57, '', 1);
+(57, '', 1);
+(57, '', 1);
+(57, '', 1);
+(57, '', 1);
+(57, '', 1);
+
+-- pergunta 58 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(58, '', 1);
+(58, '', 1);
+(58, '', 1);
+(58, '', 1);
+(58, '', 1);
+(58, '', 1);
+(58, '', 1);
+(58, '', 1);
+(58, '', 1);
+(58, '', 1);
+(58, '', 1);
+(58, '', 1);
+(58, '', 1);
+(58, '', 1);
+(58, '', 1);
+(58, '', 1);
+(58, '', 1);
+(58, '', 1);
+(58, '', 1);
+(58, '', 1);
+(58, '', 1);
+
+-- pergunta 59 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(59, '', 1);
+(59, '', 1);
+(59, '', 1);
+(59, '', 1);
+(59, '', 1);
+(59, '', 1);
+(59, '', 1);
+(59, '', 1);
+(59, '', 1);
+(59, '', 1);
+(59, '', 1);
+(59, '', 1);
+(59, '', 1);
+(59, '', 1);
+(59, '', 1);
+(59, '', 1);
+(59, '', 1);
+(59, '', 1);
+(59, '', 1);
+(59, '', 1);
+(59, '', 1);
+
+-- pergunta 60 --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(60, '', 1);
+(60, '', 1);
+(60, '', 1);
+(60, '', 1);
+(60, '', 1);
+(60, '', 1);
+(60, '', 1);
+(60, '', 1);
+(60, '', 1);
+(60, '', 1);
+(60, '', 1);
+(60, '', 1);
+(60, '', 1);
+(60, '', 1);
+(60, '', 1);
+(60, '', 1);
+(60, '', 1);
+(60, '', 1);
+(60, '', 1);
+(60, '', 1);
+(60, '', 1);
+-- resposta da ia --
+INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
+(1, 'Os fosseis sao vestigios antigos de seres vivos preservados nas rochas. Eles revelam como era a vida antigamente e especies que ja nao existem hoje em dia.', 2),
+(2, 'O ceu fica azul porque a luz do sol se espalha mais facilmente nas moleculas de gas da atmosfera nas cores de menor comprimento de onda como o azul.', 2),
+(3, 'Nosso corpo transforma os nutrientes dos alimentos em energia atraves de processos quimicos nas celulas que usam o oxigenio para alimentar nossos tecidos.', 2),
+(4, 'Os terremotos sao causados pelo movimento brusco das placas tectonicas embaixo da terra que liberam muita energia quando batem ou raspam umas nas outras.', 2),
+(5, 'As bacterias sao seres vivos completos que conseguem se multiplicar sozinhas enquanto os virus precisam invadir outras celulas para conseguir se replicar.', 2),
+(6, 'Vemos o raio antes porque a velocidade da luz no ar e muito mais rapida que a velocidade do som que viaja bem devagar comparado com a claridade.', 2),
+(7, 'Os genes sao pedacinhos do nosso DNA que definem nossas caracteristicas. Eles ficam guardados dentro do nucleo de quase todas as celulas do corpo humano.', 2),
+(8, 'Os vulcoes se formam quando o magma do interior da terra acha uma abertura na crosta terrestre e consegue subir cuspindo lava e cinzas quentes.', 2),
+(9, 'E um fenomeno natural que retem calor na terra mantendo o planeta aquecido e com uma temperatura boa para a vida se desenvolver sem congelar.', 2),
+(10, 'A dor e um aviso do nosso sistema nervoso para sinalizar que alguma parte do corpo sofreu dano e precisa de cuidado urgente para evitar problemas maiores.', 2),
+(11, 'O coracao bombeia o sangue pelas arterias levando oxigenio para os orgaos e depois ele volta pelas veias para ser limpo e oxigenado de novo no pulmao.', 2),
+(12, 'A biodiversidade e a variedade de vida na terra e ela deve ser protegida para garantir o equilibrio dos ecossistemas e a sobrevivencia das especies.', 2),
+(13, 'Isso acontece por causa da posicao da lua em relacao a terra e ao sol o que muda a quantidade de luz que vemos refletida na superficie dela.', 2),
+(14, 'O eclipse solar acontece quando a lua passa bem na frente do sol bloqueando a luz dele e fazendo uma sombra em algumas regioes da terra.', 2),
+(15, 'Sao remedios poderosos usados apenas para combater infecoes causadas por bacterias nunca devendo ser tomados para gripes ou outras doencas virais.', 2),
+(16, 'O mar e salgado porque a agua da chuva lava os minerais das rochas da terra e os rios carregam esses sais minerais para dentro dos oceanos acumulados.', 2),
+(17, 'E a camada de gases que envolve o planeta protegendo contra radiacoes nocivas e ajudando a manter o oxigenio e a temperatura estaveis para nos.', 2),
+(18, 'As bacterias criam resistencia ao medicamento quando ele e usado errado fazendo com que o remedio perca o efeito contra aquela doenca especifica.', 2),
+(19, 'O equilibrio de um ecossistema depende da interacao saudavel entre plantas animais e o ambiente onde cada especie tem um papel importante na cadeia.', 2),
+(20, 'Sao celulas do sistema nervoso que transmitem informacoes atraves de impulsos eletricos e quimicos passando mensagens de um para outro rapidamente.', 2),
+(21, 'E o movimento continuo da agua que evapora dos rios e mares forma nuvens chove sobre a terra e depois retorna para os oceanos completando a roda.', 2),
+(22, 'Elas sao verdes por causa da clorofila um pigmento que absorve a luz do sol para ajudar a planta a produzir seu propio alimento pela fotosintese.', 2),
+(23, 'Sao pedacos de rocha espacial que entram na atmosfera da terra pegando fogo pelo atrito rapido com o ar criando aquele risco luminoso no ceu.', 2),
+(24, 'E a teoria de que os seres vivos mais aptos e adaptados ao ambiente tem mais chances de sobreviver e passar suas caracteristicas para os descendentes.', 2),
+(25, 'O suor serve principalmente para resfriar o corpo quando a temperatura sobe muito regulando o calor interno e evitando que a gente tenha hipertermia.', 2),
+(26, 'Eles se formam quando ossos ou dentes de animais sao enterrados rapidamente por sedimentos e os minerais substituem a materia organica com o tempo.', 2),
+(27, 'O DNA e a molecula que guarda todas as instrucoes geneticas responsaveis por formar e comandar o funcionamento de cada celula do nosso organismo.', 2),
+(28, 'As lentes dos oculos desviam os raios de luz que entram nos olhos fazendo com que a imagem se forme exatamente no lugar certo da retina dando foco.', 2),
+(29, 'E uma camada na atmosfera rica nesse gas que bloqueia a maior parte dos raios ultravioleta nocivos vindos do sol protegendo a pele humana de danos.', 2),
+(30, 'Sao fungos e bacterias que se alimentam de restos de seres mortos transformando a materia organica em nutrientes importantes para o solo e as plantas.', 2),
+(31, 'Ele tem um marcapasso natural que gera impulsos eletricos proprios fazendo o musculo cardiaco se contrair sozinho sem a gente precisar mandar.', 2),
+(32, 'Isso depende da densidade do objeto comparada com a da agua se ele for mais denso afunda mas se for mais leve ele flutua na superficie do liquido.', 2),
+(33, 'O sistema imunologico defende o corpo contra bacterias virus e outros microbios invasores combatendo doencas para manter a saude em ordem.', 2),
+(34, 'Porque o som precisa de um meio material como ar ou agua para vibrar e se propagar e no espaco sideral existe quase um vacuo completo sem materia.', 2),
+(35, 'Os ventos surgem devido ao aquecimento desigual da superficie da terra pelo sol criando diferencas de pressao que empurram o ar de um lado para outro.', 2),
+(36, 'E o conjunto completo de todo o material genetico e informacoes de DNA que compoem o corpo humano orientando a formacao e funcionamento da gente.', 2),
+(37, 'Eles estragam porque fungos e bacterias se proliferam nos alimentos consumindo os nutrientes e liberando substancias toxicas que alteram o gosto.', 2),
+(38, 'Os rins filtram o sangue retirando as toxinas o excesso de agua e os residuos indesejados que sao eliminados do corpo na forma de urina.', 2),
+(39, 'E aquela energia obtida de fontes naturais que se reabastecem rapido como a energia solar gerada por placas que captam a luz do sol.', 2),
+(40, 'Sao celulas coringa com capacidade de se transformar em varios tipos diferentes de tecidos sendo muito uteis para pesquisas medicas e novos tratamentos.', 2),
+(41, 'Eles acontecem por causa de grandes deslocamentos no fundo do mar como terremotos subaquaticos que empurram grandes volumes de agua para cima.', 2),
+(42, 'Eles caem para abrir espaco na boca para os dentes permanentes que sao maiores e mais fortes acompanhando o crescimento natural da cabeca da crianca.', 2),
+(43, 'Ela serve como isolante termico mantendo o corpo aquecido contra o frio intenso do ambiente gelado onde esses animais costumam viver.', 2),
+(44, 'E a mudanca de direcao que a luz faz quando passa de um meio transparente para outro como do ar para a agua fazendo objetos parecerem tortos.', 2),
+(45, 'Porque usam pedacos enfraquecidos ou mortos do agente infeccioso ensinando o corpo a criar anticorpos sem causar a doenca de verdade.', 2),
+(46, 'E a grossa camada de ar que envolve a terra dividida principalmente em troposfera estratosfera mesosfera termosfera e exosfera.', 2),
+(47, 'Elas piscam porque a luz delas precisa atravessar camadas de ar em movimento constante na atmosfera da terra o que desvia um pouco os raios luminosos.', 2),
+(48, 'Eles usam a ecolocalizacao emitindo sons de alta frequencia que batem nos obstaculos e voltam mostrando onde fica cada coisa ao redor.', 2),
+(49, 'E o conjunto formado por seres vivos e o ambiente onde vivem interagindo entre si englobando elementos biologicos e fisicos de uma regiao.', 2),
+(50, 'Ocorre quando o calor do sol aquece a agua liquida transformando-a em vapor que sobe levemente para a atmosfera formando as nuvens no ceu.', 2),
+(51, 'A hemoglobina e a proteina presente nos globulos vermelhos responsavel por transportar o oxigenio do pulmao para o resto do corpo humano.', 2),
+(52, 'E o peso que o ar da atmosfera exerce sobre a superficie da terra e nos afeta dependendo da altitude mudando a quantidade de oxigenio disponivel.', 2),
+(53, 'O olho consegue fazer isso mudando a forma do cristalino uma lente interna que ajusta o foco para garantir uma imagem nitida na retina.', 2),
+(54, 'Porque as moleculas de agua sao polares e as de oleo sao apolares fazendo com que elas se repelam naturalmente sem conseguir se juntar.', 2),
+(55, 'O meteoro e o risco de luz no ceu enquanto o meteorito e o pedaco de rocha espacial que consegue cair e atingir o chao da terra.', 2),
+(56, 'E a parte principal do sistema nervoso formada pelo cerebro e pela medula espinhal que processam todas as informacoes do corpo.', 2),
+(57, 'Porque o frio intenso do congelamento paralisa a acao de bacterias e fungos que estragam os alimentos mantendo-os bons para consumo por meses.', 2),
+(58, 'E o processo em que as plantas usam a luz solar para produzir seu alimento liberando oxigenio puro no ar fundamental para a vida na terra.', 2),
+(59, 'Ocorrem quando folhas ou gravetos sao soterrados rapidamente por lama e sedimentos deixando apenas uma marca impressa na pedra apos muito tempo.', 2),
+(60, 'Sao seres vivos que tiveram seu codigo genetico alterado em laboratorio por cientistas para ganhar novas caracteristicas uteis na agricultura.', 2);

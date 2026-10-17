@@ -43,7 +43,7 @@ if (!isset($_SESSION['perguntas_teste'])) {
     }
 
     if (count($_SESSION['perguntas_teste']) < 1) {
-        die('Não há pelo menos 4 perguntas cadastradas para iniciar o teste.');
+        die('Não há pelo menos 1 perguntas cadastradas para iniciar o teste.');
     }
 
     $_SESSION['indice_pergunta'] = 0;

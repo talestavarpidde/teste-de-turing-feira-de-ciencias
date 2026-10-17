@@ -89,75 +89,76 @@ Eles revelam informações sobre a vida na Terra em épocas antigas"', 1);
 
 -- pergunta 2 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(2, '', 1);
-(2, '', 1);
-(2, '', 1);
-(2, '', 1);
-(2, '', 1);
-(2, '', 1);
-(2, '', 1);
-(2, '', 1);
-(2, '', 1);
-(2, '', 1);
-(2, '', 1);
-(2, '', 1);
-(2, '', 1);
-(2, '', 1);
-(2, '', 1);
-(2, '', 1);
-(2, '', 1);
-(2, '', 1);
-(2, '', 1);
-(2, '', 1);
-(2, '', 1);
+(2, 'pelos gases emitidos pelo ar', 1);
+(2, 'Por causa da atmosfera ', 1);
+(2, 'Por conta da iluminação do sol', 1);
+(2, 'Por causa dos gases da atmosfera em contato com a luz solar. ', 1);
+(2, 'Por causa dos raios que ultrapassam a atmosfera', 1);
+(2, 'Por causa da imensidão do universo e luz do sol refletindo em nosso planeta.', 1);
+(2, 'Por conta da reflexão da luz', 1);
+(2, 'Por causa da dispersão de Rayleigh, fenômeno  físico que acontece quando a luz do sol atravessa a atmosfera da Terra. ', 1);
+(2, 'porque o ar espalha mais a luz azul do Sol', 1);
+(2, 'O céu fica azul durante o dia por conta do reflexo dos mares no céu', 1);
+(2, 'Por que o sol trás claridade ', 1);
+(2, '"O céu parece azul por causa de um fenômeno chamado espalhamento de Rayleigh.
+A luz do Sol parece branca, mas na verdade é composta por todas as cores do arco-íris. Quando essa luz entra na atmosfera da Terra, ela encontra moléculas de ar (principalmente nitrogênio e oxigênio)."', 1);
+(2, 'porque a luz do sol se choca contra os gases da atmosfera e se espalha em todas as direções, e o comprimento de luz azul, por ser um comprimento de onda menor, ele é o que mais se espalha.', 1);
+(2, 'devido a dispersão dos raios solares quando atinge gazes que existem na atmosfera', 1);
+(2, 'Devido a rotação do planeta que direciona sua face diante do sol.', 1);
+(2, 'Devido partículas presentes na atmosfera que vão "espalhar" a luz do sol', 1);
+(2, 'Ele não é realmente azul, mas nossos olhos interpreta que ele é azul pois é luz que é refletida ', 1);
+(2, 'Por causa dos raios de Luz', 1);
 
 -- pergunta 3 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(3, '', 1);
-(3, '', 1);
-(3, '', 1);
-(3, '', 1);
-(3, '', 1);
-(3, '', 1);
-(3, '', 1);
-(3, '', 1);
-(3, '', 1);
-(3, '', 1);
-(3, '', 1);
-(3, '', 1);
-(3, '', 1);
-(3, '', 1);
-(3, '', 1);
-(3, '', 1);
-(3, '', 1);
-(3, '', 1);
-(3, '', 1);
-(3, '', 1);
-(3, '', 1);
+(3, 'Através do armazenamento das células ATP ', 1);
+(3, 'Nosso corpo produz energia a partir dos alimentos por meio principalmente da respiração celular, que acontece dentro das células.
+O processo, de forma simples, é:
+Comemos os alimentos — carboidratos, proteínas e gorduras.
+ A digestão quebra esses nutrientes em moléculas menores, como a glicose.', 1);
+(3, 'O estômago e o intestino quebram os alimentos nas moléculas de glicose, aminoácidos e ácidos graxos, que são absorvidos e transformados em ATP.', 1);
+(3, 'a principal fonte de energia do corpo é a glicose um macronutriente que é encontrado em carboidratos, o corpo tbm pode utilizar proteínas e gorduras que é absorvida após a digestão e quebradas em aminoácidos e ácidos graxos respectivamente, após a absorção esses macronutritentes chegam a correte sanguínea e acabam no interior das células mas especificamente nas mitocôndrias  e lá passam por processos enzimáticos e são convertidas em ATP que libera a energia', 1);
+(3, 'Através da digestão e captação de nutrientes pelo intestino através do sangue.', 1);
+(3, 'Devido à mitocôndria que é organela responsável pela produção de ATP, sou meio de açúcar e glicose adquirido quando comemos', 1);
+(3, 'Ele absorve dos alimentos gordura, vitaminas, proteinas e sais, transforma em gordura , que ele utiliza como combustível ', 1);
+(3, 'Quando consumimos a comida ela vira açúcar aumentando nossa glicose e isso nos dar energia ', 1);
+(3, 'através da mitocôndria ', 1);
+(3, 'através do metabolismo e da produção de energia', 1);
+(3, 'O alimento ingerido se transforma em glicose que vira energia para o nosso corpo', 1);
+(3, 'Pela quebra dos nutrientes absorvidos em nível celular. ', 1);
+(3, 'Transformando os nutrientes em moléculas que "alimentam" as células ', 1);
+(3, 'Através da digestão dos alimentos.', 1);
+(3, 'O corpo metaboliza os alimentos e transforma em nutrientes que o sustentam ', 1);
+(3, 'Por meio do metabolismo, convertendo nutrientes de ATP que é o alimento celular. ', 1);
+(3, 'transforma os alimentos em nutrientes e os usa usa para produzir energia', 1);
+(3, 'Através da digestão dos alimentos', 1);
+(3, 'O corpo absorve glicose das proteínas consumidas, essa glicose é quebrada e processada por enzimas, entra em um processo chamado processo de Krebs para no final se transformar em atp, CO2 e moléculas que carregam energia (FADH e NADH)', 1);
+(3, 'Digestão quebra alimento e célula transforma em energia ', 1);
+
 
 -- pergunta 4 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(4, '', 1);
-(4, '', 1);
-(4, '', 1);
-(4, '', 1);
-(4, '', 1);
-(4, '', 1);
-(4, '', 1);
-(4, '', 1);
-(4, '', 1);
-(4, '', 1);
-(4, '', 1);
-(4, '', 1);
-(4, '', 1);
-(4, '', 1);
-(4, '', 1);
-(4, '', 1);
-(4, '', 1);
-(4, '', 1);
-(4, '', 1);
-(4, '', 1);
-(4, '', 1);
+(4, 'O movimento das placas tectônicas ', 1);
+(4, '"Os terremotos são causados principalmente pelo movimento das placas tectônicas.
+ A crosta terrestre é dividida em grandes placas que se movimentam lentamente. Quando essas placas se chocam, se afastam ou deslizam umas sobre as outras, podem acumular muita tensão nas rochas."', 1);
+(4, 'A causa pode ser tanto pelo movimento das placas tectônicas, quanto pela liberação de energia acumulada na crosta terrestre', 1);
+(4, 'movimento e choque entre as placas tectônicas ', 1);
+(4, 'Pode ser causado pela movimentação das placas tectônicas em locais que há presença de vulcões ativos', 1);
+(4, 'O choque das placas tectônicas, elas se movimento por causa do magma abaixo delas ', 1);
+(4, 'Quando o calor interno da terra é impulsionado as placas entram em movimento.', 1);
+(4, 'o choque das placas tectônicas ', 1);
+(4, 'O choque entre as placas tectônicas ', 1);
+(4, 'o choque entre placas tectônicas ', 1);
+(4, 'Calor', 1);
+(4, 'Deslocamentos de placas tectônicas.', 1);
+(4, 'O movimento das placas tectonicas', 1);
+(4, 'É quando há movimento das placas tectônicas.', 1);
+(4, 'A movimentação das placas tectônicas', 1);
+(4, 'O movimento das placas tectônicas.', 1);
+(4, 'são causados pelo movimento das placas tectônicas da Terra', 1);
+(4, 'A causa dos terremotos são os movimentos das placas tectônicas', 1);
+(4, 'A movimentação das placas tectônicas ', 1);
+(4, 'Movimento das placas tectônicas.', 1);
 
 -- pergunta 5 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES

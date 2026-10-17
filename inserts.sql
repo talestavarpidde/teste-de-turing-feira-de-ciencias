@@ -245,27 +245,23 @@ INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`
 
 -- pergunta 9 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(9, '', 1);
-(9, '', 1);
-(9, '', 1);
-(9, '', 1);
-(9, '', 1);
-(9, '', 1);
-(9, '', 1);
-(9, '', 1);
-(9, '', 1);
-(9, '', 1);
-(9, '', 1);
-(9, '', 1);
-(9, '', 1);
-(9, '', 1);
-(9, '', 1);
-(9, '', 1);
-(9, '', 1);
-(9, '', 1);
-(9, '', 1);
-(9, '', 1);
-(9, '', 1);
+(9, 'Aquecimento do planeta, importante para a sobrevivência dos seres vivos ', 1);
+(9, 'O efeito estufa é um processo natural que mantém a temperatura do planeta estabilizada em um nível habitável. ', 1);
+(9, 'É processo quando os raios do sol entram pela atmosfera e aquece a superfície da terra que reflete esse calor novamente pra atmosfera, e lá ocorre através de alguns gazes a retenção desse calor e o retorno par a superfície dessa forma  não a perca excessiva de calor o que  impede que as temperaturas da terra diminua mantendo condições propicias para sobrevivências de seres vivos', 1);
+(9, 'Processo que retem calor do sol na atmosfera e sua principal importancia é garantir a vida, mas o problema é o aquecimento excessivo.', 1);
+(9, 'Efeito estufa é uma camada protetora presente em volta da terra feito de gases que mantém o calor do sol no planeta. Mantendo a terra aquecida', 1);
+(9, 'Ele expulsa  em parte os rios de sol, ele mínimisa o calor do planeta,  ele é uma barreira natural deitar de gases da atmosfera ', 1);
+(9, 'Ele é feito através dos gases e nos protege da radiação solar', 1);
+(9, 'É quanto chove e fica mais quente', 1);
+(9, 'Manutenção do valor na atmosfera terrestre devido à reflexão por meio dos gases. ', 1);
+(9, 'São buracos na camada de Osónio que deixam passar mais raios uvs fazendo a temperatura aumentar ', 1);
+(9, 'É a canada que proteja a terra contra os raios de radiação ultravioleta que vem do sol.', 1);
+(9, 'É o buraco na camada de ozônio causado por gases nocivos emitidos na crosta terrestre ', 1);
+(9, 'É o fenômeno natural em gases presentes na atmosfera retém parte do calor irradiado pela superfície da Terra. ', 1);
+(9, 'é um fenômeno natural que retém parte do calor do Sol e mantém a Terra aquecida', 1);
+(9, 'O efeito estufa é um fenômeno natural que mantém a Terra aquecida e permite a existência de vida. ', 1);
+(9, 'O efeito estufa é equivalente a um peido', 1);
+(9, 'Gases seguram calor na Terra. Importante pra manter temperatura boa pra vida.', 1);
 
 -- pergunta 10 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES

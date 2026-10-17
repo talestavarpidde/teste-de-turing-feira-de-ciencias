@@ -162,99 +162,86 @@ INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`
 
 -- pergunta 5 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(5, '', 1);
-(5, '', 1);
-(5, '', 1);
-(5, '', 1);
-(5, '', 1);
-(5, '', 1);
-(5, '', 1);
-(5, '', 1);
-(5, '', 1);
-(5, '', 1);
-(5, '', 1);
-(5, '', 1);
-(5, '', 1);
-(5, '', 1);
-(5, '', 1);
-(5, '', 1);
-(5, '', 1);
-(5, '', 1);
-(5, '', 1);
-(5, '', 1);
-(5, '', 1);
+(5, 'O vírus é uma célula e as bactérias não ', 1);
+(5, 'A principal diferença é que bactérias são seres vivos unicelulares, enquanto os vírus não são formados por células e precisam de uma célula hospedeira para se multiplicar.', 1);
+(5, 'Bactéria: organismos vivos, unicelulares e tem metabolismo próprio. Vírus: acelulares e só se reproduzem dentro de células hospedeiras.', 1);
+(5, 'vírus são partículas acelulares com rna como material genético e dependem de uma célula de um hospedeiro para sobrevivência e multiplicar, as bactérias são seres, unicelulares completos que sobrevivem de foram autônomas por  realizarem seu metabolismo e multiplicação sozinhas ', 1);
+(5, 'O virus é um fragmento de DNA ou RNA e a bacteria é um organismo vivo unicelular.', 1);
+(5, 'As bactérias são células completas, já os vírus dentro de seu capsídeo carrega DNA ou RNA. Os vírus vão ser parasitas, eles vão depender de um hospedeiro já as bactérias possuem vida própria', 1);
+(5, 'Vírus não é considerado um animal, se mantém inativos quando não estão em um os pedreiro é só conseguem se "reproduzir" em um ser vivo ', 1);
+(5, 'bactéria é organismo completo e vírus contém só dna ou rna', 1);
+(5, 'os vírus são acelulares enquanto as bactérias são unicelulares ', 1);
+(5, 'Vírus fazem mal e bactérias depende', 1);
+(5, 'Os vírus não são considerados necessariamente seres vivos, necessitando de um hospedeiro para sua reprodução. ', 1);
+(5, 'A estrutura celular', 1);
+(5, 'O vírus precisa de uma celular hospedeira enquanto a bactéria não.', 1);
+(5, '"Vírus são partículas infecciosas acelulares, que precisa de um hospedeiro para se desenvolver e multiplicar. 
+Bactérias são seres vivos completos e unicelulares. "', 1);
+(5, 'bactérias são seres vivos formados por uma célula, enquanto os vírus precisam de outras células para se multiplicar', 1);
+(5, 'Bactérias são seres vivos unicelulares que conseguem se reproduzir sozinha já os vírus eles precisam das células para se reproduzir', 1);
+(5, 'Um é um ser vivo e o outro é um parasita', 1);
+(5, 'Bactéria é célula viva. Vírus precisa de célula pra se reproduzir e não é célula ', 1);
 
 -- pergunta 6 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(6, '', 1);
-(6, '', 1);
-(6, '', 1);
-(6, '', 1);
-(6, '', 1);
-(6, '', 1);
-(6, '', 1);
-(6, '', 1);
-(6, '', 1);
-(6, '', 1);
-(6, '', 1);
-(6, '', 1);
-(6, '', 1);
-(6, '', 1);
-(6, '', 1);
-(6, '', 1);
-(6, '', 1);
-(6, '', 1);
-(6, '', 1);
-(6, '', 1);
-(6, '', 1);
+(6, 'Pq a luz é mais rápida que o som em relação a distância ', 1);
+(6, 'A luz do raio chega aos nossos olhos quase instantaneamente, enquanto o som do trovão leva mais tempo para percorrer a distância até nossos ouvidos.', 1);
+(6, 'O trovão é apenas o som do raio e os raios emitem luz, a luz viaja mais rápido aos nosso olhos do que o som viaja para os nosso tímpanos.', 1);
+(6, 'devido a velocidade de propagação no espaço da luz ser superior que a velocidade do som', 1);
+(6, 'Pois a luz viaja mais rapido que o som.', 1);
+(6, 'Porque a velocidade da luz é maior que a do som', 1);
+(6, 'Pois vemos a luz parte "" física "" primero que é muito mais rápida que a propagação dos trovões ', 1);
+(6, 'a velocidade da luz é maior que a do som', 1);
+(6, 'Porque a velocidade da luz é mais rápida do que a do som', 1);
+(6, 'pq a luz vem antes do som', 1);
+(6, 'Porque a velocidade da luz é maior que a do som. ', 1);
+(6, 'Porque o trovão é o barulho que o raio faz quando atinge alguma superfície ', 1);
+(6, 'Por que a velocidade da luz ser mais rápida que a do som.', 1);
+(6, 'A velocidade da luz e maior, e o som leva um pouco mais de tempo pra se propagar. ', 1);
+(6, 'Porque a velocidade da luz é maior que a do Som. ', 1);
+(6, 'porque a luz viaja mais rápido que o som', 1);
+(6, 'Porque a luz do raio viaja mais rápido do que o som dos trovões', 1);
+(6, 'Porque a luz se movimenta muito mais rápido que o som', 1);
+(6, 'Luz é mais rápida que o som', 1);
 
 -- pergunta 7 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(7, '', 1);
-(7, '', 1);
-(7, '', 1);
-(7, '', 1);
-(7, '', 1);
-(7, '', 1);
-(7, '', 1);
-(7, '', 1);
-(7, '', 1);
-(7, '', 1);
-(7, '', 1);
-(7, '', 1);
-(7, '', 1);
-(7, '', 1);
-(7, '', 1);
-(7, '', 1);
-(7, '', 1);
-(7, '', 1);
-(7, '', 1);
-(7, '', 1);
-(7, '', 1);
+(7, 'São as células de DNA que ficam nos cromossômica X e Y ', 1);
+(7, 'Os genes são responsáveis por determinar características no nosso corpo como cor dos olhos, tipo de cabelo, altura e etc. E estão localizados nos cromossomos.', 1);
+(7, 'genes são informações de um indivíduos que são transmitidas para seus decentes e se encontra no Dna no núcleo das células', 1);
+(7, 'É o que define nossas caracteristicas, DNA e ficam em quase todo corpo nas células.', 1);
+(7, 'Os genes ficam presentes nos nossos cromossomos, eles nos dão as características fenótipos e genótipos', 1);
+(7, 'Eles estão no DNA humano eles que desenvolvem e mostra como  iremos  ou podemos ser fisiologicamente ( sem envolvimento esterno)', 1);
+(7, 'No DNA,  o que eles são ', 1);
+(7, 'genes estão presente nos cromossômos e definem nossas características físicas e internas ', 1);
+(7, 'os genes dão as características e fazem as pessoas diferentes. estão presentes no DNA', 1);
+(7, 'Os genes são a nossa “genética” passada dos nossos pais e eles ficam nos cromossomos', 1);
+(7, 'Fragmentos de DNA localizados no núcleo da célula. ', 1);
+(7, 'No DNA ', 1);
+(7, 'São pequenos segmento do nosso Dna ', 1);
+(7, 'Os genes carregam a informação genética do indivíduo eles estão dentro de cada célula do corpo', 1);
+(7, 'Localizados dentro do núcleos das células. ', 1);
+(7, 'genes são partes do DNA e ficam nas células', 1);
+(7, 'Os genes fazem parte do DNA que contém as características do nosso corpo e ele fica nos cromossomos', 1);
+(7, 'Os genes são como sua identidade biológica e se localiza no DNA', 1);
+(7, 'Partes do DNA com instruções do corpo. Ficam nos cromossomos, no núcleo das células', 1);
 
 -- pergunta 8 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
-(8, '', 1);
-(8, '', 1);
-(8, '', 1);
-(8, '', 1);
-(8, '', 1);
-(8, '', 1);
-(8, '', 1);
-(8, '', 1);
-(8, '', 1);
-(8, '', 1);
-(8, '', 1);
-(8, '', 1);
-(8, '', 1);
-(8, '', 1);
-(8, '', 1);
-(8, '', 1);
-(8, '', 1);
-(8, '', 1);
-(8, '', 1);
-(8, '', 1);
-(8, '', 1);
+(8, 'Calor com erupção ', 1);
+(8, 'Pode ser por um ponto onde o magma da terra emerge de forma pontual, ou por zonas de convergência entre placas tectônicas.', 1);
+(8, 'Através dos movimento das placas tectônicas e o magma do interior do manto da terra sobe por fendas e rachaduras', 1);
+(8, 'Depende, pode ser formado por afastamento ou encontro de placas tectónicas e locais quentes onde tem magma.', 1);
+(8, 'Se formam quando o máximo presente no dia de olhar a terra isso tem uma temperatura muito elevada e consegue subir para superfície escapando meio de rachaduras', 1);
+(8, 'A magma sai da terra, seca , sai mais magma , seca , até formar aquela estrutura gigante ', 1);
+(8, 'pelas rachaduras presentes no planeta terra ', 1);
+(8, 'Transbordamento da lava proveniente do núcleo da terra através de fendas na crosta. ', 1);
+(8, 'Quando o magma escapa por aberturas na terra', 1);
+(8, 'Estrutura geológica como abertura na crosta terrestre.', 1);
+(8, 'Um vulcão se forma quando o magma (rocha derretida no interior da terra) extravasa na superfície, por meio do afastamento das placas tectônicas. ', 1);
+(8, 'se formam quando o magma sai do interior da Terra para a superfície', 1);
+(8, 'Os vulcões se formam quando o magma do interior da Terra chega à superfície por meio de fissuras na crosta terrestre.', 1);
+(8, 'Chocando as placas tectônicas ', 1);
 
 -- pergunta 9 --
 INSERT INTO `teste_turing`.`resposta` (`idpergunta`, `resposta`, `tipo_resposta`) VALUES
